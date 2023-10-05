@@ -43,7 +43,7 @@ const Navbar = () => {
           <div className="container">
             <nav className="navbar navbar-expand-md navbar-light">
               <Link href="/" className="navbar-brand">
-                <img src="/images/logo.png" alt="logo" />
+                <img src="/images/logoIcon.png" alt="logo" width={"80px"} />
               </Link>
 
               <button
@@ -76,9 +76,8 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/"
-                          className={`nav-link ${
-                            currentPath == "/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/" && "active"
+                            }`}
                         >
                           Home Demo - 1
                         </Link>
@@ -87,9 +86,8 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/index-2/"
-                          className={`nav-link ${
-                            currentPath == "/index-2/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/index-2/" && "active"
+                            }`}
                         >
                           Home Demo - 2
                         </Link>
@@ -98,9 +96,8 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/index-3/"
-                          className={`nav-link ${
-                            currentPath == "/index-3/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/index-3/" && "active"
+                            }`}
                         >
                           Home Demo - 3
                         </Link>
@@ -109,9 +106,8 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/index-4/"
-                          className={`nav-link ${
-                            currentPath == "/index-4/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/index-4/" && "active"
+                            }`}
                         >
                           Home Demo - 4
                         </Link>
@@ -120,9 +116,8 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/index-5/"
-                          className={`nav-link ${
-                            currentPath == "/index-5/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/index-5/" && "active"
+                            }`}
                         >
                           Home Demo - 5
                         </Link>
@@ -133,9 +128,8 @@ const Navbar = () => {
                   <li className="nav-item">
                     <Link
                       href="/about/"
-                      className={`nav-link ${
-                        currentPath == "/about/" && "active"
-                      }`}
+                      className={`nav-link ${currentPath == "/about/" && "active"
+                        }`}
                     >
                       About
                     </Link>
@@ -154,9 +148,8 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/appointment/"
-                          className={`nav-link ${
-                            currentPath == "/appointment/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/appointment/" && "active"
+                            }`}
                         >
                           Appointment
                         </Link>
@@ -165,9 +158,8 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/departments/"
-                          className={`nav-link ${
-                            currentPath == "/departments/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/departments/" && "active"
+                            }`}
                         >
                           Departments
                         </Link>
@@ -176,9 +168,8 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/testimonials/"
-                          className={`nav-link ${
-                            currentPath == "/testimonials/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/testimonials/" && "active"
+                            }`}
                         >
                           Testimonials
                         </Link>
@@ -187,9 +178,8 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/sign-up/"
-                          className={`nav-link ${
-                            currentPath == "/sign-up/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/sign-up/" && "active"
+                            }`}
                         >
                           Sign Up
                         </Link>
@@ -198,9 +188,8 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/sign-in/"
-                          className={`nav-link ${
-                            currentPath == "/sign-in/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/sign-in/" && "active"
+                            }`}
                         >
                           Sign In
                         </Link>
@@ -209,9 +198,8 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/faq/"
-                          className={`nav-link ${
-                            currentPath == "/faq/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/faq/" && "active"
+                            }`}
                         >
                           FAQ's
                         </Link>
@@ -220,9 +208,8 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/404/"
-                          className={`nav-link ${
-                            currentPath == "/404/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/404/" && "active"
+                            }`}
                         >
                           404 Error Page
                         </Link>
@@ -231,9 +218,8 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/coming-soon/"
-                          className={`nav-link ${
-                            currentPath == "/coming-soon/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/coming-soon/" && "active"
+                            }`}
                         >
                           Coming Soon
                         </Link>
@@ -242,9 +228,8 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/privacy-policy/"
-                          className={`nav-link ${
-                            currentPath == "/privacy-policy/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/privacy-policy/" && "active"
+                            }`}
                         >
                           Privacy Policy
                         </Link>
@@ -253,9 +238,8 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/terms-condition/"
-                          className={`nav-link ${
-                            currentPath == "/terms-condition/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/terms-condition/" && "active"
+                            }`}
                         >
                           Terms & Conditions
                         </Link>
@@ -276,9 +260,8 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/services/"
-                          className={`nav-link ${
-                            currentPath == "/services/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/services/" && "active"
+                            }`}
                         >
                           Services
                         </Link>
@@ -287,9 +270,8 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/service-details/"
-                          className={`nav-link ${
-                            currentPath == "/service-details/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/service-details/" && "active"
+                            }`}
                         >
                           Service Details
                         </Link>
@@ -310,9 +292,8 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/doctors/"
-                          className={`nav-link ${
-                            currentPath == "/doctors/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/doctors/" && "active"
+                            }`}
                         >
                           Doctors
                         </Link>
@@ -321,9 +302,8 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/doctor-details/"
-                          className={`nav-link ${
-                            currentPath == "/doctor-details/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/doctor-details/" && "active"
+                            }`}
                         >
                           Doctor Details
                         </Link>
@@ -344,9 +324,8 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/blog/"
-                          className={`nav-link ${
-                            currentPath == "/blog/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/blog/" && "active"
+                            }`}
                         >
                           Blog
                         </Link>
@@ -355,9 +334,8 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/blog-details/"
-                          className={`nav-link ${
-                            currentPath == "/blog-details/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/blog-details/" && "active"
+                            }`}
                         >
                           Blog Details
                         </Link>
@@ -368,9 +346,8 @@ const Navbar = () => {
                   <li className="nav-item">
                     <Link
                       href="/contact"
-                      className={`nav-link ${
-                        currentPath == "/blog/" && "active"
-                      }`}
+                      className={`nav-link ${currentPath == "/blog/" && "active"
+                        }`}
                     >
                       Contact
                     </Link>
