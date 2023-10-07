@@ -11,7 +11,7 @@ const HeroSlider = () => {
         modules={[Navigation]}
         className="home-slider home-slider-two"
       >
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <div
             className="slider-item"
             style={{
@@ -43,7 +43,7 @@ const HeroSlider = () => {
               </div>
             </div>
           </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
 
         <SwiperSlide>
           <div
@@ -79,7 +79,7 @@ const HeroSlider = () => {
           </div>
         </SwiperSlide>
 
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <div
             className="slider-item"
             style={{
@@ -111,7 +111,7 @@ const HeroSlider = () => {
               </div>
             </div>
           </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
       </Swiper>
     </>
   );

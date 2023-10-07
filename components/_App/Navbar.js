@@ -141,8 +141,78 @@ const Navbar = () => {
                       onClick={(e) => e.preventDefault()}
                       className="nav-link dropdown-toggle"
                     >
+                      Hair
+                    </Link>
+
+
+                    <ul className="dropdown-menu">
+                      <li className="nav-item">
+                        <Link
+                          href="/appointment/"
+                          className={`nav-link ${currentPath == "/appointment/" && "active"
+                            }`}
+                        >
+                          Appointment
+                        </Link>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li className="nav-item">
+                    <Link
+                      href="#"
+                      onClick={(e) => e.preventDefault()}
+                      className="nav-link dropdown-toggle"
+                    >
+                      Laser
+                    </Link>
+
+
+                    <ul className="dropdown-menu">
+                      <li className="nav-item">
+                        <Link
+                          href="/appointment/"
+                          className={`nav-link ${currentPath == "/appointment/" && "active"
+                            }`}
+                        >
+                          Appointment
+                        </Link>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li className="nav-item">
+                    <Link
+                      href="#"
+                      onClick={(e) => e.preventDefault()}
+                      className="nav-link dropdown-toggle"
+                    >
+                      Skin
+                    </Link>
+
+
+                    <ul className="dropdown-menu">
+                      <li className="nav-item">
+                        <Link
+                          href="/appointment/"
+                          className={`nav-link ${currentPath == "/appointment/" && "active"
+                            }`}
+                        >
+                          Appointment
+                        </Link>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li className="nav-item">
+                    <Link
+                      href="#"
+                      onClick={(e) => e.preventDefault()}
+                      className="nav-link dropdown-toggle"
+                    >
                       Pages
                     </Link>
+
 
                     <ul className="dropdown-menu">
                       <li className="nav-item">
@@ -247,7 +317,7 @@ const Navbar = () => {
                     </ul>
                   </li>
 
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <Link
                       href="#"
                       onClick={(e) => e.preventDefault()}
@@ -309,9 +379,9 @@ const Navbar = () => {
                         </Link>
                       </li>
                     </ul>
-                  </li>
+                  </li> */}
 
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <Link
                       href="#"
                       onClick={(e) => e.preventDefault()}
@@ -341,7 +411,7 @@ const Navbar = () => {
                         </Link>
                       </li>
                     </ul>
-                  </li>
+                  </li> */}
 
                   <li className="nav-item">
                     <Link
@@ -356,7 +426,7 @@ const Navbar = () => {
               </div>
 
               <div className="nav-srh">
-                <form>
+                {/* <form>
                   <input
                     type="text"
                     className="form-control"
@@ -367,7 +437,20 @@ const Navbar = () => {
                   <button className="search-icon icon-search">
                     <i className="icofont-search-1"></i>
                   </button>
-                </form>
+                </form> */}
+                <div className="common-btn">
+                  <Link
+                    style={{
+                      border: "2px solid #0046c0",
+                      color: "#ffffff",
+                      backgroundColor: "#0046c0",
+                      position: "relative"
+                    }}
+                    href="/appointment"
+                  >
+                    Get Appointment
+                  </Link>
+                </div>
               </div>
             </nav>
           </div>

@@ -15,8 +15,8 @@ const Footer = () => {
                   <ul>
                     <li>
                       <i className="icofont-ui-message"></i>
-                      <a href="mailto:info@disin.com">info@disin.com</a>
-                      <a href="mailto:hello@disin.com">hello@disin.com</a>
+                      <a href="mailto:info@dermaiims.com">info@dermaiims.com</a>
+                      <a href="mailto:hello@dermaiims.com">hello@dermaiims.com</a>
                     </li>
                     <li>
                       <i className="icofont-stock-mobile"></i>
@@ -133,8 +133,8 @@ const Footer = () => {
           <div className="copyright-item">
             <p>
               Copyright &copy; {currentYear} Design & Developed by{" "}
-              <a href="https://hibootstrap.com/" target="_blank">
-                HiBootstrap
+              <a href="https://arpitujjwal.web.app/" target="_blank">
+                Arpit Ujjwal
               </a>
             </p>
           </div>
