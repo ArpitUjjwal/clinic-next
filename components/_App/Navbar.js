@@ -63,7 +63,7 @@ const Navbar = () => {
 
               <div className={classOne} id="navbarSupportedContent">
                 <ul className="navbar-nav">
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <Link
                       href="#"
                       onClick={(e) => e.preventDefault()}
@@ -123,6 +123,16 @@ const Navbar = () => {
                         </Link>
                       </li>
                     </ul>
+                  </li> */}
+
+                  <li className="nav-item">
+                    <Link
+                      href="/"
+                      className={`nav-link ${currentPath == "/" && "active"
+                            }`}
+                    >
+                      Home
+                    </Link>
                   </li>
 
                   <li className="nav-item">
@@ -149,10 +159,10 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/appointment/"
-                          className={`nav-link ${currentPath == "/appointment/" && "active"
+                          className={`nav-link ${currentPath == "/" && "active"
                             }`}
                         >
-                          Appointment
+                          Dummy
                         </Link>
                       </li>
                     </ul>
@@ -172,10 +182,10 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/appointment/"
-                          className={`nav-link ${currentPath == "/appointment/" && "active"
+                          className={`nav-link ${currentPath == "/" && "active"
                             }`}
                         >
-                          Appointment
+                          Dummy
                         </Link>
                       </li>
                     </ul>
@@ -195,16 +205,39 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/appointment/"
-                          className={`nav-link ${currentPath == "/appointment/" && "active"
+                          className={`nav-link ${currentPath == "/" && "active"
                             }`}
                         >
-                          Appointment
+                          Dummy
                         </Link>
                       </li>
                     </ul>
                   </li>
 
                   <li className="nav-item">
+                    <Link
+                      href="#"
+                      onClick={(e) => e.preventDefault()}
+                      className="nav-link dropdown-toggle"
+                    >
+                      Aesthetic
+                    </Link>
+
+
+                    <ul className="dropdown-menu">
+                      <li className="nav-item">
+                        <Link
+                          href="/appointment/"
+                          className={`nav-link ${currentPath == "/" && "active"
+                            }`}
+                        >
+                          Dummy
+                        </Link>
+                      </li>
+                    </ul>
+                  </li>
+
+                  {/* <li className="nav-item">
                     <Link
                       href="#"
                       onClick={(e) => e.preventDefault()}
@@ -315,7 +348,7 @@ const Navbar = () => {
                         </Link>
                       </li>
                     </ul>
-                  </li>
+                  </li> */}
 
                   {/* <li className="nav-item">
                     <Link

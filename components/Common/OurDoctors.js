@@ -14,14 +14,14 @@ const OurDoctors = () => {
             <div className="col-sm-6 col-lg-4">
               <div className="doctor-item">
                 <div className="doctor-top">
-                  <img src="/images/doctors/doctor1.jpg" alt="Doctor" />
+                  <img src="/images/doctors/doctor2.jpg" alt="Doctor" />
                   <Link href="/appointment">Get Appointment</Link>
                 </div>
                 <div className="doctor-bottom">
                   <h3>
-                    <Link href="/doctor-details">Dr. Babatunde</Link>
+                    <Link href="/doctor-details">Dr. Ramesh</Link>
                   </h3>
-                  <span>Neurosurgeon</span>
+                  <span>Dermatologist</span>
                 </div>
               </div>
             </div>
@@ -34,9 +34,9 @@ const OurDoctors = () => {
                 </div>
                 <div className="doctor-bottom">
                   <h3>
-                    <Link href="/doctor-details">Dr. Addision Smith</Link>
+                    <Link href="/doctor-details">Dr. Ramesh</Link>
                   </h3>
-                  <span>Neurosurgeon</span>
+                  <span>Dermatologist</span>
                 </div>
               </div>
             </div>
@@ -44,14 +44,14 @@ const OurDoctors = () => {
             <div className="col-sm-6 col-lg-4">
               <div className="doctor-item">
                 <div className="doctor-top">
-                  <img src="/images/doctors/doctor3.jpg" alt="Doctor" />
+                  <img src="/images/doctors/doctor2.jpg" alt="Doctor" />
                   <Link href="/appointment">Get Appointment</Link>
                 </div>
                 <div className="doctor-bottom">
                   <h3>
-                    <Link href="/doctor-details">Dr. Sarah Tylor</Link>
+                    <Link href="/doctor-details">Dr. Ramesh</Link>
                   </h3>
-                  <span>Dental Surgeon</span>
+                  <span>Dermatologist</span>
                 </div>
               </div>
             </div>

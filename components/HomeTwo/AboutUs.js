@@ -16,13 +16,13 @@ const AboutUs = () => {
               <div className="welcome-item welcome-right">
                 <div className="section-title-two">
                   <span>About Us</span>
-                  <h2>Welcome to Dermaiims Hospital We have...</h2>
+                  <h2>Best Dermatology and Hair transplant clinic in Delhi...</h2>
                 </div>
                 <ul>
                   <li>
                     <i className="icofont-doctor-alt"></i>
                     <div className="welcome-inner">
-                      <h3>Certified Doctors</h3>
+                      <h3>Scientific approach and result-oriented</h3>
                       <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing
                         elit.consectetur adipiscing elit.
@@ -32,7 +32,7 @@ const AboutUs = () => {
                   <li>
                     <i className="icofont-stretcher"></i>
                     <div className="welcome-inner">
-                      <h3>Emergency 24 hours</h3>
+                      <h3>World-class infrastructure and safety protocols</h3>
                       <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing
                         elit.consectetur adipiscing elit.
@@ -42,7 +42,7 @@ const AboutUs = () => {
                   <li>
                     <i className="icofont-network"></i>
                     <div className="welcome-inner">
-                      <h3>Modern Technologey</h3>
+                      <h3>Experts DERMATOLOGIST from AIIMS</h3>
                       <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing
                         elit.consectetur adipiscing elit.
