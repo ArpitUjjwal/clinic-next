@@ -10,9 +10,9 @@ const ContactInfo = () => {
               <div className="emergency-item">
                 <i className="icofont-ui-call"></i>
                 <div className="emergency-inner">
-                  <h3>Emergency Call</h3>
-                  <p>+07 5554 3332 322</p>
-                  <p>+07 5554 3332 456</p>
+                  <h3>Call Us</h3>
+                  <p>01145091986</p>
+                  <p>8447400400</p>
                 </div>
               </div>
             </div>
@@ -22,7 +22,7 @@ const ContactInfo = () => {
                 <i className="icofont-location-pin"></i>
                 <div className="emergency-inner">
                   <h3>Location</h3>
-                  <p>2108-267 Road Quadra, Toronto, Canada Victiria Canada</p>
+                  <p>B-4/1, Ground floor, Safdarjung Enclave, New Delhi- 110029</p>
                 </div>
               </div>
             </div>

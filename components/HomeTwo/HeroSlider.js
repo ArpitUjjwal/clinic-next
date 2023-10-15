@@ -59,11 +59,10 @@ const HeroSlider = () => {
                     <div className="slider-shape">
                       <img src="/images/about-shape1.png" alt="Shape" />
                     </div>
-                    <h1>We Always Provide Best Services</h1>
+                    <h1>India’s leading skin and hair
+                      clinic founded by AIIMS dermatologist</h1>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Quis ipsum suspendisse ultrices gravida.
+                      Beyond ordinary results.
                     </p>
 
                     <div className="common-btn">

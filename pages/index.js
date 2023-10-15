@@ -12,6 +12,7 @@ import Stats from "../components/HomeTwo/Stats";
 import AppointmentForm from "../components/Common/AppointmentForm";
 import LatestBlogPost from "../components/Common/LatestBlogPost";
 import NewsletterForm from "../components/Common/NewsletterForm";
+import TestimonialSlider from "../components/Common/TestimonialSlider";
 import Footer from "../components/_App/Footer";
 
 const Index2 = () => {
@@ -40,6 +41,8 @@ const Index2 = () => {
       </div>
 
       <AppointmentForm />
+
+      {/* <TestimonialSlider /> */}
 
       <LatestBlogPost />
 

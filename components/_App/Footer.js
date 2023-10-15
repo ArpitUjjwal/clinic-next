@@ -38,22 +38,16 @@ const Footer = () => {
                   <h3>Quick Links</h3>
                   <ul>
                     <li>
-                      <Link href="/about">About us</Link>
+                      <Link href="/">Home</Link>
                     </li>
                     <li>
-                      <Link href="/about">Blog</Link>
+                      <Link href="/about">About</Link>
                     </li>
                     <li>
-                      <Link href="/blog-details">Our Expertise</Link>
+                      <Link href="/">Contact</Link>
                     </li>
                     <li>
-                      <Link href="/faq">Faq</Link>
-                    </li>
-                    <li>
-                      <Link href="/doctor">Doctors</Link>
-                    </li>
-                    <li>
-                      <Link href="/contact">Contact us</Link>
+                      <Link href="/">Faq</Link>
                     </li>
                   </ul>
                 </div>
@@ -66,22 +60,16 @@ const Footer = () => {
                   <h3>Our Services</h3>
                   <ul>
                     <li>
-                      <Link href="/service-details">Dental Care</Link>
+                      <Link href="/service-details">Hait</Link>
                     </li>
                     <li>
-                      <Link href="/service-details">Cardiology</Link>
+                      <Link href="/service-details">Skin</Link>
                     </li>
                     <li>
-                      <Link href="/service-details">Hijama Therapy</Link>
+                      <Link href="/service-details">Laser</Link>
                     </li>
                     <li>
-                      <Link href="/service-details">Massage Therapy</Link>
-                    </li>
-                    <li>
-                      <Link href="/service-details">Ambluance Sevices</Link>
-                    </li>
-                    <li>
-                      <Link href="/service-details">Medicine</Link>
+                      <Link href="/service-details">Aesthetic</Link>
                     </li>
                   </ul>
                 </div>
