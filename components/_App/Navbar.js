@@ -43,7 +43,7 @@ const Navbar = () => {
           <div className="container">
             <nav className="navbar navbar-expand-md navbar-light">
               <Link href="/" className="navbar-brand">
-                <img src="/images/logoIcon.png" alt="logo" width={"80px"} />
+                <img src="/images/logo.png" alt="logo" width={"100px"} />
               </Link>
 
               <button
