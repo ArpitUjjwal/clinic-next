@@ -8,10 +8,6 @@ import AppointmentForm from "../components/Appointment/AppointmentForm";
 const Appointment = () => {
   return (
     <>
-      <TopHeader />
-
-      <Navbar />
-
       <PageBanner
         pageTitle="Appointment"
         homePageUrl="/"
@@ -21,8 +17,6 @@ const Appointment = () => {
       />
 
       <AppointmentForm />
-
-      <Footer />
     </>
   );
 };

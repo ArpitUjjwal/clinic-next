@@ -8,10 +8,6 @@ import Link from "next/link";
 const Doctors = () => {
   return (
     <>
-      <TopHeader />
-
-      <Navbar />
-
       <PageBanner
         pageTitle="Meet Our Qualified Doctors"
         homePageUrl="/"
@@ -202,7 +198,6 @@ const Doctors = () => {
         </div>
       </div>
 
-      <Footer />
     </>
   );
 };

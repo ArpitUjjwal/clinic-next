@@ -14,10 +14,6 @@ import {
 const Faq = () => {
   return (
     <>
-      <TopHeader />
-
-      <Navbar />
-
       <PageBanner
         pageTitle="FAQ's"
         homePageUrl="/"
@@ -306,8 +302,6 @@ const Faq = () => {
           </div>
         </div>
       </div>
-
-      <Footer />
     </>
   );
 };

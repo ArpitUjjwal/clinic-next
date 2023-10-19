@@ -157,8 +157,8 @@ const Navbar = () => {
 
                   <li className="nav-item">
                     <Link
-                      href="#"
-                      onClick={(e) => e.preventDefault()}
+                      href="/hair"
+                      // onClick={(e) => e.preventDefault()}
                       className="nav-link dropdown-toggle"
                     >
                       Hair
@@ -168,11 +168,38 @@ const Navbar = () => {
                     <ul className="dropdown-menu">
                       <li className="nav-item">
                         <Link
-                          href="/appointment/"
-                          className={`nav-link ${currentPath == "/" && "active"
+                          href="/hair/what-is-hair-transplant"
+                          className={`nav-link ${currentPath == "/hair" && "active"
                             }`}
                         >
-                          Dummy
+                          What is hair transplant?
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/hair/what-is-hair-transplant"
+                          className={`nav-link ${currentPath == "/hair" && "active"
+                            }`}
+                        >
+                          Cost of hair transplant?
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/hair/what-is-hair-transplant"
+                          className={`nav-link ${currentPath == "/hair" && "active"
+                            }`}
+                        >
+                          Hair transplant in females?
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/hair/what-is-hair-transplant"
+                          className={`nav-link ${currentPath == "/hair" && "active"
+                            }`}
+                        >
+                          Hair transplant in Delhi?
                         </Link>
                       </li>
                     </ul>

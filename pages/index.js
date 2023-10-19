@@ -18,9 +18,6 @@ import Footer from "../components/_App/Footer";
 const Index2 = () => {
   return (
     <>
-      <TopHeader />
-
-      <Navbar />
 
       <HeroSlider />
 
@@ -47,8 +44,6 @@ const Index2 = () => {
       <LatestBlogPost />
 
       <NewsletterForm />
-
-      <Footer />
     </>
   );
 };

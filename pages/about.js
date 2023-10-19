@@ -4,7 +4,7 @@ import Navbar from "../components/_App/Navbar";
 import PageBanner from "../components/Common/PageBanner";
 import Footer from "../components/_App/Footer";
 import OurExpertise from "../components/HomeTwo/OurExpertise";
-import Services from "../components/HomeOne/Services";
+import Services from "../components/HomeTwo/Services";
 import TestimonialSlider from "../components/Common/TestimonialSlider";
 import LatestBlogPost from "../components/Common/LatestBlogPost";
 import FunFacts from "../components/Common/FunFacts";
@@ -13,10 +13,6 @@ import AboutContent from "../components/About/AboutContent";
 const About = () => {
   return (
     <>
-      <TopHeader />
-
-      <Navbar />
-
       <PageBanner
         pageTitle="About"
         homePageUrl="/"
@@ -37,7 +33,6 @@ const About = () => {
 
       <LatestBlogPost />
 
-      <Footer />
     </>
   );
 };

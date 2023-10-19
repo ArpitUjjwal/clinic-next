@@ -8,10 +8,6 @@ import DepartmentsCard from "../components/Departments/DepartmentsCard";
 const Departments = () => {
   return (
     <>
-      <TopHeader />
-
-      <Navbar />
-
       <PageBanner
         pageTitle="Departments"
         homePageUrl="/"
@@ -22,7 +18,6 @@ const Departments = () => {
 
       <DepartmentsCard />
 
-      <Footer />
     </>
   );
 };

@@ -9,10 +9,6 @@ import Footer from "../components/_App/Footer";
 const Services = () => {
   return (
     <>
-      <TopHeader />
-
-      <Navbar />
-
       <PageBanner
         pageTitle="Services"
         homePageUrl="/"
@@ -24,8 +20,6 @@ const Services = () => {
       <ServicesCard />
 
       <OurExpertise />
-
-      <Footer />
     </>
   );
 };

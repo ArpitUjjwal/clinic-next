@@ -10,10 +10,6 @@ import Footer from "../components/_App/Footer";
 const Contact = () => {
   return (
     <>
-      <TopHeader />
-
-      <Navbar />
-
       <PageBanner
         pageTitle="Contact Us"
         homePageUrl="/"
@@ -28,7 +24,6 @@ const Contact = () => {
 
       <GoogleMap />
 
-      <Footer />
     </>
   );
 };

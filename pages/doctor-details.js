@@ -8,10 +8,6 @@ import Footer from "../components/_App/Footer";
 const DoctorDetails = () => {
   return (
     <>
-      <TopHeader />
-
-      <Navbar />
-
       <PageBanner
         pageTitle="Dr. Sarah Taylor (Neurosurgeon)"
         homePageUrl="/"
@@ -151,7 +147,6 @@ const DoctorDetails = () => {
         <AppointmentFormTwo />
       </div>
 
-      <Footer />
     </>
   );
 };

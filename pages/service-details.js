@@ -8,10 +8,6 @@ import ServiceDetailsContent from "../components/Services/ServiceDetailsContent"
 const ServiceDetails = () => {
   return (
     <>
-      <TopHeader />
-
-      <Navbar />
-
       <PageBanner
         pageTitle="Service Details"
         homePageUrl="/"
@@ -21,8 +17,6 @@ const ServiceDetails = () => {
       />
 
       <ServiceDetailsContent />
-
-      <Footer />
     </>
   );
 };

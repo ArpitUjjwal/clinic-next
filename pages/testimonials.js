@@ -10,10 +10,6 @@ import Footer from "../components/_App/Footer";
 const Testimonials = () => {
   return (
     <>
-      <TopHeader />
-
-      <Navbar />
-
       <PageBanner
         pageTitle="Testimonials"
         homePageUrl="/"
@@ -29,8 +25,6 @@ const Testimonials = () => {
       <TestimonialSlider />
 
       <OurDoctors />
-
-      <Footer />
     </>
   );
 };

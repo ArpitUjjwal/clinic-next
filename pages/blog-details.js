@@ -16,10 +16,6 @@ const BlogList = ({ blog }) => {
 const BlogDetails = () => {
   return (
     <>
-      <TopHeader />
-
-      <Navbar />
-
       <PageBanner
         pageTitle="Blog Details"
         homePageUrl="/"
@@ -31,8 +27,6 @@ const BlogDetails = () => {
       <BlogList blog={1}/>
 
       <LatestBlogPost />
-
-      <Footer />
     </>
   );
 };

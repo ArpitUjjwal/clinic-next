@@ -2,6 +2,9 @@ import React from "react";
 import Head from "next/head";
 import GoTop from "./GoTop";
 import Whatsapp from "./Whatsapp";
+import Footer from "./Footer";
+import TopHeader from "./TopHeader";
+import Navbar from "./Navbar";
 
 const Layout = ({ children }) => {
   return (
@@ -14,9 +17,15 @@ const Layout = ({ children }) => {
         />
       </Head>
 
+      <TopHeader />
+
+      <Navbar />
+
       {children}
 
-      <Whatsapp/>
+      <Footer />
+
+      <Whatsapp />
       <GoTop scrollStepInPx="100" delayInMs="10.50" />
     </>
   );
