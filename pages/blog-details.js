@@ -4,7 +4,14 @@ import Navbar from "../components/_App/Navbar";
 import PageBanner from "../components/Common/PageBanner";
 import Footer from "../components/_App/Footer";
 import LatestBlogPost from "../components/Blog/LatestBlogPost";
-import BlogDetailsContent from "../components/Blog/BlogDetailsContent";
+import Blog1 from "../components/Blog/Blog1";
+
+const BlogList = ({ blog }) => {
+  switch (blog) {
+    case 1: return <Blog1 />
+    default: return null;
+  }
+}
 
 const BlogDetails = () => {
   return (
@@ -21,7 +28,7 @@ const BlogDetails = () => {
         bgImage="page-title-four"
       />
 
-      <BlogDetailsContent />
+      <BlogList blog={1}/>
 
       <LatestBlogPost />
 

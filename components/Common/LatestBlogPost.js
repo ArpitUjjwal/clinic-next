@@ -15,7 +15,7 @@ const LatestBlogPost = () => {
               <div className="blog-item">
                 <div className="blog-top">
                   <Link href="/blog-details">
-                    <img src="/images/blog/blog3.jpg" alt="Blog" />
+                    <img src="/images/blog/anti-age-blog.jpg" alt="Blog" />
                   </Link>
                 </div>
                 <div className="blog-bottom">

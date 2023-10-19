@@ -8,10 +8,9 @@ const NewsletterForm = () => {
           <div className="row newsletter-wrap align-items-center">
             <div className="col-lg-6">
               <div className="newsletter-item">
-                <h2>Join Our Newsletter</h2>
+                <h2>Get in touch</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod.
+                  Share your mobile number and we'll contact you.
                 </p>
               </div>
             </div>
@@ -20,15 +19,15 @@ const NewsletterForm = () => {
                 <div className="newsletter-form">
                   <form className="newsletter-form">
                     <input
-                      type="email"
+                      type="number"
                       className="form-control"
-                      placeholder="Enter Your Email"
+                      placeholder="Enter Your Number"
                       name="EMAIL"
                       required
                     />
 
                     <button className="btn newsletter-btn" type="submit">
-                      Subscribe
+                      Share
                     </button>
                   </form>
                 </div>

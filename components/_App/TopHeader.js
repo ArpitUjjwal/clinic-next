@@ -13,18 +13,20 @@ const TopHeader = () => {
                     <li>
                       <a href="tel:+07554332322">
                         <i className="icofont-ui-call"></i>
-                        Call : +07 554 332 322
+                        Call : +011 4509 1986
                       </a>
                     </li>
                     <li>
-                      <a href="mailto:hello@dermaiims.com">
+                      <a href="mailto:dermaiimsclinic@gmail.com">
                         <i className="icofont-ui-message"></i>
-                        hello@dermaiims.com
+                         dermaiimsclinic@gmail.com
                       </a>
                     </li>
                     <li>
+                      <a href="https://maps.app.goo.gl/SzAF9LeJBzeWYTWk6" target="_blank">
                       <i className="icofont-location-pin"></i>
-                      210-27 Quadra, Canada
+                      B-4/1, Ground floor, Safdarjung Enclave, New Delhi- 110029
+                      </a>
                     </li>
                   </ul>
                 </div>
@@ -34,14 +36,14 @@ const TopHeader = () => {
             <div className="col-sm-4 col-lg-3">
               <div className="header-top-item">
                 <div className="header-top-right">
-                  <ul className="lang-list">
+                  {/* <ul className="lang-list">
                     <li>
                       <a href="/">EN</a>
                     </li>
                     <li>
                       <a href="/ar">AR</a>
                     </li>
-                  </ul>
+                  </ul> */}
 
                   <ul>
                     <li>
