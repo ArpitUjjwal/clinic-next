@@ -4038,8 +4038,6 @@ footer {
   height: 50px;
   width: 50px;
   margin-right: 28px;
-  -webkit-filter: drop-shadow(3px 5px 5px #25D366);
-  filter: drop-shadow(3px 5px 5px #25D366);
 }
 
 #toTop {
