@@ -63,68 +63,6 @@ const Navbar = () => {
 
               <div className={classOne} id="navbarSupportedContent">
                 <ul className="navbar-nav">
-                  {/* <li className="nav-item">
-                    <Link
-                      href="#"
-                      onClick={(e) => e.preventDefault()}
-                      className="nav-link dropdown-toggle"
-                    >
-                      Home
-                    </Link>
-
-                    <ul className="dropdown-menu">
-                      <li className="nav-item">
-                        <Link
-                          href="/"
-                          className={`nav-link ${currentPath == "/" && "active"
-                            }`}
-                        >
-                          Home Demo - 1
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/index-2/"
-                          className={`nav-link ${currentPath == "/index-2/" && "active"
-                            }`}
-                        >
-                          Home Demo - 2
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/index-3/"
-                          className={`nav-link ${currentPath == "/index-3/" && "active"
-                            }`}
-                        >
-                          Home Demo - 3
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/index-4/"
-                          className={`nav-link ${currentPath == "/index-4/" && "active"
-                            }`}
-                        >
-                          Home Demo - 4
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/index-5/"
-                          className={`nav-link ${currentPath == "/index-5/" && "active"
-                            }`}
-                        >
-                          Home Demo - 5
-                        </Link>
-                      </li>
-                    </ul>
-                  </li> */}
-
                   <li className="nav-item">
                     <Link
                       href="/"
@@ -141,17 +79,7 @@ const Navbar = () => {
                       className={`nav-link ${currentPath == "/about/" && "active"
                         }`}
                     >
-                      About
-                    </Link>
-                  </li>
-
-                  <li className="nav-item">
-                    <Link
-                      href="/contact"
-                      className={`nav-link ${currentPath == "/blog/" && "active"
-                        }`}
-                    >
-                      Contact
+                      About Us
                     </Link>
                   </li>
 
@@ -207,8 +135,7 @@ const Navbar = () => {
 
                   <li className="nav-item">
                     <Link
-                      href="#"
-                      onClick={(e) => e.preventDefault()}
+                      href="/laser"
                       className="nav-link dropdown-toggle"
                     >
                       Laser
@@ -219,10 +146,37 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/appointment/"
-                          className={`nav-link ${currentPath == "/" && "active"
+                          className={`nav-link ${currentPath == "/laser" && "active"
                             }`}
                         >
-                          Dummy
+                          Laser hair removal
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/appointment/"
+                          className={`nav-link ${currentPath == "/laser" && "active"
+                            }`}
+                        >
+                          Laser skin treatment
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/appointment/"
+                          className={`nav-link ${currentPath == "/laser" && "active"
+                            }`}
+                        >
+                          Laser scar treatment
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/appointment/"
+                          className={`nav-link ${currentPath == "/laser" && "active"
+                            }`}
+                        >
+                          Laser Pigmentation
                         </Link>
                       </li>
                     </ul>
@@ -230,8 +184,7 @@ const Navbar = () => {
 
                   <li className="nav-item">
                     <Link
-                      href="#"
-                      onClick={(e) => e.preventDefault()}
+                      href="/skin"
                       className="nav-link dropdown-toggle"
                     >
                       Skin
@@ -242,10 +195,37 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/appointment/"
-                          className={`nav-link ${currentPath == "/" && "active"
+                          className={`nav-link ${currentPath == "/skin" && "active"
                             }`}
                         >
-                          Dummy
+                          Skin acne treatment
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/appointment/"
+                          className={`nav-link ${currentPath == "/skin" && "active"
+                            }`}
+                        >
+                          Skin botox treatment
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/appointment/"
+                          className={`nav-link ${currentPath == "/skin" && "active"
+                            }`}
+                        >
+                          Lip filler treatment
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/appointment/"
+                          className={`nav-link ${currentPath == "/skin" && "active"
+                            }`}
+                        >
+                          Stretch marks treatment
                         </Link>
                       </li>
                     </ul>
@@ -253,251 +233,17 @@ const Navbar = () => {
 
                   <li className="nav-item">
                     <Link
-                      href="#"
-                      onClick={(e) => e.preventDefault()}
-                      className="nav-link dropdown-toggle"
+                      href="/contact"
+                      className={`nav-link ${currentPath == "/blog/" && "active"
+                        }`}
                     >
-                      Aesthetic
+                      Contact Us
                     </Link>
-
-
-                    <ul className="dropdown-menu">
-                      <li className="nav-item">
-                        <Link
-                          href="/appointment/"
-                          className={`nav-link ${currentPath == "/" && "active"
-                            }`}
-                        >
-                          Dummy
-                        </Link>
-                      </li>
-                    </ul>
                   </li>
-
-                  {/* <li className="nav-item">
-                    <Link
-                      href="#"
-                      onClick={(e) => e.preventDefault()}
-                      className="nav-link dropdown-toggle"
-                    >
-                      Pages
-                    </Link>
-
-
-                    <ul className="dropdown-menu">
-                      <li className="nav-item">
-                        <Link
-                          href="/appointment/"
-                          className={`nav-link ${currentPath == "/appointment/" && "active"
-                            }`}
-                        >
-                          Appointment
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/departments/"
-                          className={`nav-link ${currentPath == "/departments/" && "active"
-                            }`}
-                        >
-                          Departments
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/testimonials/"
-                          className={`nav-link ${currentPath == "/testimonials/" && "active"
-                            }`}
-                        >
-                          Testimonials
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/sign-up/"
-                          className={`nav-link ${currentPath == "/sign-up/" && "active"
-                            }`}
-                        >
-                          Sign Up
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/sign-in/"
-                          className={`nav-link ${currentPath == "/sign-in/" && "active"
-                            }`}
-                        >
-                          Sign In
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/faq/"
-                          className={`nav-link ${currentPath == "/faq/" && "active"
-                            }`}
-                        >
-                          FAQ's
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/404/"
-                          className={`nav-link ${currentPath == "/404/" && "active"
-                            }`}
-                        >
-                          404 Error Page
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/coming-soon/"
-                          className={`nav-link ${currentPath == "/coming-soon/" && "active"
-                            }`}
-                        >
-                          Coming Soon
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/privacy-policy/"
-                          className={`nav-link ${currentPath == "/privacy-policy/" && "active"
-                            }`}
-                        >
-                          Privacy Policy
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/terms-condition/"
-                          className={`nav-link ${currentPath == "/terms-condition/" && "active"
-                            }`}
-                        >
-                          Terms & Conditions
-                        </Link>
-                      </li>
-                    </ul>
-                  </li> */}
-
-                  {/* <li className="nav-item">
-                    <Link
-                      href="#"
-                      onClick={(e) => e.preventDefault()}
-                      className="nav-link dropdown-toggle"
-                    >
-                      Services
-                    </Link>
-
-                    <ul className="dropdown-menu">
-                      <li className="nav-item">
-                        <Link
-                          href="/services/"
-                          className={`nav-link ${currentPath == "/services/" && "active"
-                            }`}
-                        >
-                          Services
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/service-details/"
-                          className={`nav-link ${currentPath == "/service-details/" && "active"
-                            }`}
-                        >
-                          Service Details
-                        </Link>
-                      </li>
-                    </ul>
-                  </li>
-
-                  <li className="nav-item">
-                    <Link
-                      href="#"
-                      onClick={(e) => e.preventDefault()}
-                      className="nav-link dropdown-toggle"
-                    >
-                      Doctors
-                    </Link>
-
-                    <ul className="dropdown-menu">
-                      <li className="nav-item">
-                        <Link
-                          href="/doctors/"
-                          className={`nav-link ${currentPath == "/doctors/" && "active"
-                            }`}
-                        >
-                          Doctors
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/doctor-details/"
-                          className={`nav-link ${currentPath == "/doctor-details/" && "active"
-                            }`}
-                        >
-                          Doctor Details
-                        </Link>
-                      </li>
-                    </ul>
-                  </li> */}
-
-                  {/* <li className="nav-item">
-                    <Link
-                      href="#"
-                      onClick={(e) => e.preventDefault()}
-                      className="nav-link dropdown-toggle"
-                    >
-                      Blog
-                    </Link>
-
-                    <ul className="dropdown-menu">
-                      <li className="nav-item">
-                        <Link
-                          href="/blog/"
-                          className={`nav-link ${currentPath == "/blog/" && "active"
-                            }`}
-                        >
-                          Blog
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/blog-details/"
-                          className={`nav-link ${currentPath == "/blog-details/" && "active"
-                            }`}
-                        >
-                          Blog Details
-                        </Link>
-                      </li>
-                    </ul>
-                  </li> */}
                 </ul>
               </div>
 
               <div className="nav-srh">
-                {/* <form>
-                  <input
-                    type="text"
-                    className="form-control"
-                    id="search"
-                    placeholder="Search..."
-                  />
-
-                  <button className="search-icon icon-search">
-                    <i className="icofont-search-1"></i>
-                  </button>
-                </form> */}
                 <div className="common-btn">
                   <Link
                     style={{

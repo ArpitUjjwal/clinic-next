@@ -8,31 +8,29 @@ const Footer = () => {
       <footer className="pt-100 pb-70">
         <div className="container">
           <div className="row">
-            <div className="col-sm-6 col-lg-4">
+            <div className="col-sm-6 col-lg-6">
               <div className="footer-item">
                 <div className="footer-contact pe-2">
                   <h3>Contact Us</h3>
                   <ul>
                     <li>
                       <i className="icofont-ui-message"></i>
-                      <a href="mailto:info@dermaiims.com">info@dermaiims.com</a>
-                      <a href="mailto:hello@dermaiims.com">hello@dermaiims.com</a>
+                      <a href="mailto:dermaiimsclinic@gmail.com">dermaiimsclinic@gmail.com</a>
                     </li>
                     <li>
                       <i className="icofont-stock-mobile"></i>
-                      <a href="tel:+07554332322">Call: +07 554 332 322</a>
-                      <a href="tel:+236256256365">Call: +236 256 256 365</a>
+                      <a href="tel:+01145091986">Call: +011 4509 1986</a>
                     </li>
                     <li>
                       <i className="icofont-location-pin"></i>
-                      210-27 Quadra, Market Street, Victoria Canada
+                      B-4/1, Ground floor, Safdarjung Enclave, New Delhi- 110029
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
 
-            <div className="col-sm-6 col-lg-2">
+            <div className="col-sm-6 col-lg-3">
               <div className="footer-item">
                 <div className="footer-quick">
                   <h3>Quick Links</h3>
@@ -46,9 +44,6 @@ const Footer = () => {
                     <li>
                       <Link href="/">Contact</Link>
                     </li>
-                    <li>
-                      <Link href="/">Faq</Link>
-                    </li>
                   </ul>
                 </div>
               </div>
@@ -60,23 +55,20 @@ const Footer = () => {
                   <h3>Our Services</h3>
                   <ul>
                     <li>
-                      <Link href="/service-details">Hait</Link>
+                      <Link href="/hair">Hair</Link>
                     </li>
                     <li>
-                      <Link href="/service-details">Skin</Link>
+                      <Link href="/skin">Skin</Link>
                     </li>
                     <li>
-                      <Link href="/service-details">Laser</Link>
-                    </li>
-                    <li>
-                      <Link href="/service-details">Aesthetic</Link>
+                      <Link href="/laser">Laser</Link>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
 
-            <div className="col-sm-6 col-lg-3">
+            {/* <div className="col-sm-6 col-lg-3">
               <div className="footer-item">
                 <div className="footer-feedback">
                   <h3>Feedback</h3>
@@ -111,7 +103,7 @@ const Footer = () => {
                   </form>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </footer>

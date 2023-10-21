@@ -5,11 +5,11 @@ const ServiceDetailsContent = () => {
     return (
         <>
             <PageBanner
-                pageTitle="Hair"
+                pageTitle="Skin"
                 homePageUrl="/"
                 homePageText="Home"
                 activePageText="Service Details"
-                bgImage="page-title-hair"
+                bgImage="page-title-skin"
             />
             <div className="service-details-area ptb-100">
                 <div className="container">

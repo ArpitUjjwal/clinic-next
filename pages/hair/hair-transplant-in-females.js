@@ -5,17 +5,15 @@ const ServiceDetailsContent = () => {
     return (
         <>
             <PageBanner
-                pageTitle="what-is-hair-transplant"
+                pageTitle="What is hair transplant?"
                 homePageUrl="/"
                 homePageText="Home"
                 activePageText="Service Details"
-                bgImage="page-title-one"
+                bgImage="page-title-hair"
             />
             <div className="service-details-area ptb-100">
                 <div className="container">
                     <div className="services-details-img">
-                        <img src="/images/service-details-bg.jpg" alt="Service Details" />
-
                         <h2>Our Hospital Always Provide Good Services</h2>
                         <p>
                             Lorem Ipsum is simply dummy text of the printing and typesetting
