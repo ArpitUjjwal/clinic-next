@@ -96,7 +96,7 @@ const Navbar = () => {
                     <ul className="dropdown-menu">
                       <li className="nav-item">
                         <Link
-                          href="/hair/what-is-hair-transplant"
+                          href="/hair"
                           className={`nav-link ${currentPath == "/hair" && "active"
                             }`}
                         >
@@ -105,7 +105,7 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/hair/what-is-hair-transplant"
+                          href="/hair"
                           className={`nav-link ${currentPath == "/hair" && "active"
                             }`}
                         >
@@ -114,7 +114,7 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/hair/what-is-hair-transplant"
+                          href="/hair"
                           className={`nav-link ${currentPath == "/hair" && "active"
                             }`}
                         >
@@ -123,7 +123,7 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/hair/what-is-hair-transplant"
+                          href="/hair"
                           className={`nav-link ${currentPath == "/hair" && "active"
                             }`}
                         >
@@ -145,7 +145,7 @@ const Navbar = () => {
                     <ul className="dropdown-menu">
                       <li className="nav-item">
                         <Link
-                          href="/appointment/"
+                          href="/laser/"
                           className={`nav-link ${currentPath == "/laser" && "active"
                             }`}
                         >
@@ -154,7 +154,7 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/appointment/"
+                          href="/laser/"
                           className={`nav-link ${currentPath == "/laser" && "active"
                             }`}
                         >
@@ -163,7 +163,7 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/appointment/"
+                          href="/laser/"
                           className={`nav-link ${currentPath == "/laser" && "active"
                             }`}
                         >
@@ -172,7 +172,7 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/appointment/"
+                          href="/laser/"
                           className={`nav-link ${currentPath == "/laser" && "active"
                             }`}
                         >
@@ -194,7 +194,7 @@ const Navbar = () => {
                     <ul className="dropdown-menu">
                       <li className="nav-item">
                         <Link
-                          href="/appointment/"
+                          href="/skin/"
                           className={`nav-link ${currentPath == "/skin" && "active"
                             }`}
                         >
@@ -203,7 +203,7 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/appointment/"
+                          href="/skin/"
                           className={`nav-link ${currentPath == "/skin" && "active"
                             }`}
                         >
@@ -212,7 +212,7 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/appointment/"
+                          href="/skin/"
                           className={`nav-link ${currentPath == "/skin" && "active"
                             }`}
                         >
@@ -221,7 +221,7 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/appointment/"
+                          href="/skin/"
                           className={`nav-link ${currentPath == "/skin" && "active"
                             }`}
                         >

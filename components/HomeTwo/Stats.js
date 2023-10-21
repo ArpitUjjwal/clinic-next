@@ -6,18 +6,12 @@ const Stats = () => {
       <div className="counter-area counter-area-two">
         <div className="container">
           <div className="row counter-bg">
-            <div className="col-sm-6 col-lg-3">
-              <div className="counter-item">
-                <i className="icofont-patient-bed"></i>
-                <h3 className="counter">850</h3>
-                <p>Patients Beds</p>
-              </div>
-            </div>
+            
             <div className="col-sm-6 col-lg-3">
               <div className="counter-item">
                 <i className="icofont-people"></i>
                 <h3>
-                  <span className="counter">25000</span>+
+                  <span className="counter">xxx</span>+
                 </h3>
                 <p>Happy Patients</p>
               </div>
@@ -25,15 +19,22 @@ const Stats = () => {
             <div className="col-sm-6 col-lg-3">
               <div className="counter-item">
                 <i className="icofont-doctor-alt"></i>
-                <h3 className="counter">750</h3>
-                <p>Doctors & Nurse</p>
+                <h3 className="counter">2</h3>
+                <p>Doctors</p>
               </div>
             </div>
             <div className="col-sm-6 col-lg-3">
               <div className="counter-item">
                 <i className="icofont-badge"></i>
-                <h3 className="counter">18</h3>
+                <h3 className="counter">xx</h3>
                 <p>Year Experience</p>
+              </div>
+            </div>
+            <div className="col-sm-6 col-lg-3">
+              <div className="counter-item">
+                <i className="icofont-patient-bed"></i>
+                <h3 className="counter">1</h3>
+                <p>Centre</p>
               </div>
             </div>
           </div>

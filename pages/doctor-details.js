@@ -41,7 +41,7 @@ const DoctorDetails = () => {
                   </ul>
                 </div>
 
-                <div className="doctor-details-work">
+                {/* <div className="doctor-details-work">
                   <h3>Working hours</h3>
                   <div className="appointment-item-two-right">
                     <div className="appointment-item-content">
@@ -61,7 +61,7 @@ const DoctorDetails = () => {
                       </ul>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
 
@@ -142,11 +142,6 @@ const DoctorDetails = () => {
           </div>
         </div>
       </div>
-
-      <div className="pb-100">
-        <AppointmentFormTwo />
-      </div>
-
     </>
   );
 };

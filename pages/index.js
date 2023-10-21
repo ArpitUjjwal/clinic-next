@@ -27,7 +27,7 @@ const Index2 = () => {
 
       <OurExpertise />
 
-      <Services />
+      {/* <Services /> */}
 
       <VideoIntro />
 

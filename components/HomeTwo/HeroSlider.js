@@ -62,7 +62,7 @@ const HeroSlider = () => {
                     <h1>India’s leading skin and hair
                       clinic founded by AIIMS dermatologist</h1>
                     <p>
-                      Beyond ordinary results.
+                    Your Path to Healthy Skin and Natural Hair Restoration
                     </p>
 
                     <div className="common-btn">

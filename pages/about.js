@@ -14,25 +14,20 @@ const About = () => {
   return (
     <>
       <PageBanner
-        pageTitle="About"
+        pageTitle="About Us"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="About"
-        bgImage="page-title-one"
+        activePageText="About Us"
+        bgImage="page-title-skin"
       />
 
       <AboutContent />
 
-      <FunFacts />
- 
       <OurExpertise />
 
-      <Services />
-
-      <TestimonialSlider />
+      {/* <TestimonialSlider /> */}
 
       <LatestBlogPost />
-
     </>
   );
 };

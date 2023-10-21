@@ -8,7 +8,7 @@ const ServiceDetailsContent = () => {
                 pageTitle="Laser"
                 homePageUrl="/"
                 homePageText="Home"
-                activePageText="Service Details"
+                activePageText="Laser"
                 bgImage="page-title-laser"
             />
             <div className="service-details-area ptb-100">
@@ -16,40 +16,21 @@ const ServiceDetailsContent = () => {
                     <div className="services-details-img">
                         <h2>Our Hospital Always Provide Good Services</h2>
                         <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting
-                            industry. Lorem Ipsum has been the industry's standard dummy text
-                            ever since the 1500s, when an unknown printer took a galley of
-                            type and scrambled it to make a type specimen book. It has
-                            survived not only five centuries, but also the leap into
-                            electronic typesetting, remaining essentially unchanged. It was
-                            popularised in the 1960s with the release of Letraset sheets
-                            containing Lorem Ipsum passages, and more recently with desktop
-                            publishing software like Aldus PageMaker including versions of
-                            Lorem Ipsum.
+                            Laser treatment at Dermaiims offers advanced solutions for various skin and hair concerns. Our state-of-the-art laser technologies are carefully selected to provide safe and effective treatments for our patients. Whether you're seeking to address unwanted hair, skin blemishes, or signs of aging, our laser procedures can help you achieve your desired results.
                         </p>
 
-                        <blockquote>
-                            <i className="icofont-quote-left"></i>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
-                            optio rem magni, dolorum aut vel nostrum quae, fugit
-                            necessitatibus eius perferendis. Quia optio tenetur pariatur
-                            aliquam obcaecati enim quam eum?Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit. Sint optio rem magni, dolorum aut
-                            vel nostrum quae, fugit necessitatibus eius perferendis. Quia
-                            optio tenetur pariatur aliquam obcaecati enim quam eum?
-                        </blockquote>
                         <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting
-                            industry. Lorem Ipsum has been the industry's standard dummy text
-                            ever since the 1500s, when an unknown printer took a galley of
-                            type and scrambled it to make a type specimen book. It has
-                            survived not only five centuries, but also the leap into
-                            electronic typesetting, remaining essentially unchanged. It was
-                            popularised in the 1960s with the release of Letraset sheets
-                            containing Lorem Ipsum passages, and more recently with desktop
-                            publishing software like Aldus PageMaker including versions of
-                            Lorem Ipsum.
+                            Our expert team of dermatologists and laser specialists ensures that each laser treatment is tailored to your specific needs. We understand that every patient is unique, and we take the time to assess your concerns and develop a personalized treatment plan. With our patient-first approach, your well-being and safety are our top priorities.
                         </p>
+
+                        <p>
+                            Dermaiims takes pride in staying at the forefront of laser technology. We offer a wide range of laser treatments, including hair removal, skin rejuvenation, and scar reduction. Our advanced lasers are designed to deliver effective results while minimizing discomfort and downtime, so you can quickly get back to your daily routine.
+                        </p>
+
+                        <p>
+                            When you choose Dermaiims for laser treatment, you're choosing a commitment to excellence. Our team is dedicated to providing the best care possible, ensuring that you achieve the desired outcomes for your skin and hair. Trust in Dermaiims for safe, efficient, and customized laser treatments that can transform your appearance and boost your self-confidence.
+                        </p>
+
                     </div>
 
                     <div className="row">
@@ -60,23 +41,14 @@ const ServiceDetailsContent = () => {
                         </div>
                         <div className="col-lg-7">
                             <div className="service-details-inner">
-                                <h2>We Always Take Care Our Patient</h2>
+                                <h2>We Always Take Care of Our Patients</h2>
                                 <p>
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                    Architecto blanditiis obcaecati veritatis magnam pariatur
-                                    molestiae in maxime. Animi quae vitae in inventore. Totam
-                                    mollitia aspernatur provident veniam aperiam placeat impedit!
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                    Saepe rem natus nobis, dolorum nam excepturi iure autem nemo
-                                    ducimus temporibus facere, est eum voluptatem, culpa optio
-                                    fugit assumenda quod? Praesentium.
+                                    At Dermaiims, our commitment to patient care is at the heart of everything we do. We understand that seeking medical treatment can be a significant decision, and we are dedicated to providing a caring and supportive environment for all our patients.
                                 </p>
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
-                                    laudantium ullam, iure distinctio officia libero voluptatem
-                                    obcaecati vero deleniti minima nemo itaque alias nisi eveniet
-                                    soluta architecto quae laboriosam unde.
+                                    We believe in providing the highest standard of quality and care, and our patients' trust and comfort are of utmost importance. Our state-of-the-art facilities, advanced technologies, and compassionate staff combine to create an environment where you can feel confident and well taken care of during your entire journey with us.
                                 </p>
+
                             </div>
                         </div>
                     </div>

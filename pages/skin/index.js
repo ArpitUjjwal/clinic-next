@@ -5,50 +5,30 @@ const ServiceDetailsContent = () => {
     return (
         <>
             <PageBanner
-                pageTitle="Skin"
+                pageTitle="Skin Treatment"
                 homePageUrl="/"
                 homePageText="Home"
-                activePageText="Service Details"
+                activePageText="Skin"
                 bgImage="page-title-skin"
             />
             <div className="service-details-area ptb-100">
                 <div className="container">
                     <div className="services-details-img">
-                        <h2>Our Hospital Always Provide Good Services</h2>
+                        <h2>Skin Treatment at Dermaiims</h2>
                         <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting
-                            industry. Lorem Ipsum has been the industry's standard dummy text
-                            ever since the 1500s, when an unknown printer took a galley of
-                            type and scrambled it to make a type specimen book. It has
-                            survived not only five centuries, but also the leap into
-                            electronic typesetting, remaining essentially unchanged. It was
-                            popularised in the 1960s with the release of Letraset sheets
-                            containing Lorem Ipsum passages, and more recently with desktop
-                            publishing software like Aldus PageMaker including versions of
-                            Lorem Ipsum.
+                            Achieving healthy, radiant skin is within your reach at Dermaiims. Our comprehensive skin treatment services are designed to address a wide range of skin concerns and conditions. Whether you're dealing with acne, pigmentation issues, aging signs, or any other skin problem, our team of skilled dermatologists is here to help you regain your skin's natural beauty.
                         </p>
 
-                        <blockquote>
-                            <i className="icofont-quote-left"></i>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
-                            optio rem magni, dolorum aut vel nostrum quae, fugit
-                            necessitatibus eius perferendis. Quia optio tenetur pariatur
-                            aliquam obcaecati enim quam eum?Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit. Sint optio rem magni, dolorum aut
-                            vel nostrum quae, fugit necessitatibus eius perferendis. Quia
-                            optio tenetur pariatur aliquam obcaecati enim quam eum?
-                        </blockquote>
                         <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting
-                            industry. Lorem Ipsum has been the industry's standard dummy text
-                            ever since the 1500s, when an unknown printer took a galley of
-                            type and scrambled it to make a type specimen book. It has
-                            survived not only five centuries, but also the leap into
-                            electronic typesetting, remaining essentially unchanged. It was
-                            popularised in the 1960s with the release of Letraset sheets
-                            containing Lorem Ipsum passages, and more recently with desktop
-                            publishing software like Aldus PageMaker including versions of
-                            Lorem Ipsum.
+                            At Dermaiims, we take a personalized approach to skin care. Our experts understand that each individual's skin is unique, and we tailor our treatments to suit your specific needs. From the latest aesthetic lasers to innovative skincare regimens, we offer a wide array of options to rejuvenate and revitalize your skin.
+                        </p>
+
+                        <p>
+                            We pride ourselves on utilizing cutting-edge technology and proven methods to ensure that you receive top-quality skin treatments. Our dermatologists are well-trained in diagnosing and treating even the most challenging skin conditions. We're committed to providing you with a safe and comfortable experience while achieving the results you desire.
+                        </p>
+
+                        <p>
+                            Your skin's health and appearance matter to us, and our patient-centric approach ensures that you'll receive the best possible care. Whether you're looking to enhance your skin's texture, reduce blemishes, or simply maintain its youthful glow, Dermaiims is your trusted partner on the journey to healthier, more beautiful skin.
                         </p>
                     </div>
 
@@ -60,23 +40,14 @@ const ServiceDetailsContent = () => {
                         </div>
                         <div className="col-lg-7">
                             <div className="service-details-inner">
-                                <h2>We Always Take Care Our Patient</h2>
+                                <h2>We Always Take Care of Our Patients</h2>
                                 <p>
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                    Architecto blanditiis obcaecati veritatis magnam pariatur
-                                    molestiae in maxime. Animi quae vitae in inventore. Totam
-                                    mollitia aspernatur provident veniam aperiam placeat impedit!
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                    Saepe rem natus nobis, dolorum nam excepturi iure autem nemo
-                                    ducimus temporibus facere, est eum voluptatem, culpa optio
-                                    fugit assumenda quod? Praesentium.
+                                    At Dermaiims, our commitment to patient care is at the heart of everything we do. We understand that seeking medical treatment can be a significant decision, and we are dedicated to providing a caring and supportive environment for all our patients.
                                 </p>
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
-                                    laudantium ullam, iure distinctio officia libero voluptatem
-                                    obcaecati vero deleniti minima nemo itaque alias nisi eveniet
-                                    soluta architecto quae laboriosam unde.
+                                    We believe in providing the highest standard of quality and care, and our patients' trust and comfort are of utmost importance. Our state-of-the-art facilities, advanced technologies, and compassionate staff combine to create an environment where you can feel confident and well taken care of during your entire journey with us.
                                 </p>
+
                             </div>
                         </div>
                     </div>

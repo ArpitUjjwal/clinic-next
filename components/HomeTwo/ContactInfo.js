@@ -11,8 +11,8 @@ const ContactInfo = () => {
                 <i className="icofont-ui-call"></i>
                 <div className="emergency-inner">
                   <h3>Call Us</h3>
-                  <p>01145091986</p>
-                  <p>8447400400</p>
+                  <p>+011 4509 1986</p>
+                  <p>+91 8447 400 400</p>
                 </div>
               </div>
             </div>
@@ -29,11 +29,10 @@ const ContactInfo = () => {
 
             <div className="col-sm-6 col-lg-4">
               <div className="emergency-item">
-                <i className="icofont-ambulance-crescent"></i>
+                <i className="icofont-email"></i>
                 <div className="emergency-inner">
-                  <h3>Ambulance</h3>
-                  <p>+07 5554 3332 456</p>
-                  <p>+07 5554 3332 294</p>
+                  <h3>Mail</h3>
+                  <p>dermaiimsclinic@gmail.com</p>
                 </div>
               </div>
             </div>

@@ -14,29 +14,28 @@ const LatestBlogPost = () => {
             <div className="col-md-6 col-lg-4">
               <div className="blog-item">
                 <div className="blog-top">
-                  <Link href="/blog-details">
-                    <img src="/images/blog/anti-age-blog.jpg" alt="Blog" />
+                  <Link href="/">
+                    <img src="/images/blog/acne-blog.jpg" alt="Blog" />
                   </Link>
                 </div>
                 <div className="blog-bottom">
                   <h3>
-                    <Link href="/blog-details">
-                      In this hospital there are special surgeon
+                    <Link href="/">
+                    Top 10 Tips On How To Prevent Acne Scars?
                     </Link>
                   </h3>
                   <p>
-                    Lorem ipsum is dolor sit amet, csectetur adipiscing elit,
-                    dolore smod tempor incididunt ut labore et..
+                  Acne scars are the most common; about 80 percent of people between the ages of 11 and 30 experience them, and one out of five develops...
                   </p>
                   <ul>
                     <li>
-                      <Link href="/blog-details">
+                      <Link href="/">
                         Read More <i className="icofont-long-arrow-right"></i>
                       </Link>
                     </li>
                     <li>
-                      <i className="icofont-calendar"></i>
-                      Jan 03, 2022
+                      {/* <i className="icofont-calendar"></i>
+                      Jan 03, 2022 */}
                     </li>
                   </ul>
                 </div>
@@ -46,29 +45,28 @@ const LatestBlogPost = () => {
             <div className="col-md-6 col-lg-4">
               <div className="blog-item">
                 <div className="blog-top">
-                  <Link href="/blog-details">
-                    <img src="/images/blog/blog3.jpg" alt="Blog" />
+                  <Link href="/">
+                    <img src="/images/blog/underarm-blog.jpg" alt="Blog" />
                   </Link>
                 </div>
                 <div className="blog-bottom">
                   <h3>
-                    <Link href="/blog-details">
-                      World AIDS Day, designated on 1 December
+                    <Link href="/">
+                    Underarm Laser Hair Removal: Procedure, Cost & More
                     </Link>
                   </h3>
                   <p>
-                    Lorem ipsum is dolor sit amet, csectetur adipiscing elit,
-                    dolore smod tempor incididunt ut labore et..
+                  Underarm hair, also known as axillary hair, begins to emerge throughout adolescence. While underarm hair is important  as it minimises...
                   </p>
                   <ul>
                     <li>
-                      <Link href="/blog-details">
+                      <Link href="/">
                         Read More <i className="icofont-long-arrow-right"></i>
                       </Link>
                     </li>
                     <li>
-                      <i className="icofont-calendar"></i>
-                      Jan 03, 2022
+                      {/* <i className="icofont-calendar"></i>
+                      Jan 03, 2022 */}
                     </li>
                   </ul>
                 </div>
@@ -78,29 +76,28 @@ const LatestBlogPost = () => {
             <div className="col-md-6 col-lg-4">
               <div className="blog-item">
                 <div className="blog-top">
-                  <Link href="/blog-details">
-                    <img src="/images/blog/blog3.jpg" alt="Blog" />
+                  <Link href="/">
+                    <img src="/images/blog/dandruff-blog.jpg" alt="Blog" />
                   </Link>
                 </div>
                 <div className="blog-bottom">
                   <h3>
-                    <Link href="/blog-details">
-                      More than 80 clinical trials launch to test coronavirus
+                    <Link href="/">
+                    How To Avoid Dandruff In Winters?
                     </Link>
                   </h3>
                   <p>
-                    Lorem ipsum is dolor sit amet, csectetur adipiscing elit,
-                    dolore smod tempor incididunt ut labore et..
+                  It’s winter time! The time when the cold waves hit our sensitive skin. The skin during winters often dries up, getting stretchy, irritating, and ...
                   </p>
                   <ul>
                     <li>
-                      <Link href="/blog-details">
+                      <Link href="/">
                         Read More <i className="icofont-long-arrow-right"></i>
                       </Link>
                     </li>
                     <li>
-                      <i className="icofont-calendar"></i>
-                      Jan 03, 2022
+                      {/* <i className="icofont-calendar"></i>
+                      Jan 03, 2022 */}
                     </li>
                   </ul>
                 </div>
