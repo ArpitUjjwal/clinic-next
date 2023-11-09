@@ -1524,11 +1524,13 @@ footer {
 }
 
 .home-slider-two .slider-item .slider-text h1 {
-  color: #232323;
+  color: #ffffff;
+  text-shadow: 10px 10px 30px #001230;
 }
 
 .home-slider-two .slider-item .slider-text p {
-  color: #000000;
+  color: #ffffff;
+  text-shadow: 10px 10px 30px #001230;
 }
 
 .home-slider-two .slider-item .slider-text .common-btn a {

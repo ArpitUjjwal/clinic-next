@@ -14,7 +14,7 @@ const OurDoctors = () => {
             <div className="col-sm-6 col-lg-4">
               <div className="doctor-item">
                 <div className="doctor-top">
-                  <img src="/images/doctors/doctor2.jpg" alt="Doctor" />
+                  <img src="/images/ramesh.jpeg" alt="Doctor" />
                   <Link href="/appointment">Get Appointment</Link>
                 </div>
                 <div className="doctor-bottom">
@@ -26,7 +26,7 @@ const OurDoctors = () => {
               </div>
             </div>
 
-            <div className="col-sm-6 col-lg-4">
+            {/* <div className="col-sm-6 col-lg-4">
               <div className="doctor-item">
                 <div className="doctor-top">
                   <img src="/images/doctors/doctor2.jpg" alt="Doctor" />
@@ -39,7 +39,7 @@ const OurDoctors = () => {
                   <span>MBBS (AIIMS)</span>
                 </div>
               </div>
-            </div>
+            </div> */}
 
           </div>
 

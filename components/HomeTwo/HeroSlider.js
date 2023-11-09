@@ -1,55 +1,26 @@
 import React from "react";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper";
+import { Navigation, Autoplay } from "swiper";
 
 const HeroSlider = () => {
   return (
     <>
       <Swiper
+        spaceBetween={30}
         navigation={true}
-        modules={[Navigation]}
+        modules={[Navigation, Autoplay]}
         className="home-slider home-slider-two"
+        autoplay={{
+          delay: 3000,
+          disableOnInteraction: false,
+        }}
       >
-        {/* <SwiperSlide>
-          <div
-            className="slider-item"
-            style={{
-              backgroundImage: `url(/images/home-two/home-2-slider1.jpg)`,
-            }}
-          >
-            <div className="d-table">
-              <div className="d-table-cell">
-                <div className="container">
-                  <div className="slider-text">
-                    <div className="slider-shape">
-                      <img src="/images/about-shape1.png" alt="Shape" />
-                    </div>
-                    <h1>We have Fantastic Doctors and Dentist</h1>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Quis ipsum suspendisse ultrices gravida.
-                    </p>
-
-                    <div className="common-btn">
-                      <Link href="/appointment">Get Appointment</Link>
-                      <Link href="/about" className="cmn-btn-right">
-                        Learn More
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </SwiperSlide> */}
-
         <SwiperSlide>
           <div
             className="slider-item"
             style={{
-              backgroundImage: `url(/images/home-two/home-2-slider2.jpg)`,
+              backgroundImage: `url(/images/home-two/IMG-3874.jpg)`,
             }}
           >
             <div className="d-table">
@@ -78,11 +49,11 @@ const HeroSlider = () => {
           </div>
         </SwiperSlide>
 
-        {/* <SwiperSlide>
+        <SwiperSlide>
           <div
             className="slider-item"
             style={{
-              backgroundImage: `url(/images/home-two/home-2-slider2.jpg)`,
+              backgroundImage: `url(/images/home-two/IMG-3882.jpg)`,
             }}
           >
             <div className="d-table">
@@ -92,11 +63,10 @@ const HeroSlider = () => {
                     <div className="slider-shape">
                       <img src="/images/about-shape1.png" alt="Shape" />
                     </div>
-                    <h1>Hign Quality Medicines at Lowest Rates</h1>
+                    <h1>India’s leading skin and hair
+                      clinic founded by AIIMS dermatologist</h1>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Quis ipsum suspendisse ultrices gravida.
+                    Your Path to Healthy Skin and Natural Hair Restoration
                     </p>
 
                     <div className="common-btn">
@@ -110,7 +80,40 @@ const HeroSlider = () => {
               </div>
             </div>
           </div>
-        </SwiperSlide> */}
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <div
+            className="slider-item"
+            style={{
+              backgroundImage: `url(/images/home-two/IMG-6389.jpg)`,
+            }}
+          >
+            <div className="d-table">
+              <div className="d-table-cell">
+                <div className="container">
+                  <div className="slider-text">
+                    <div className="slider-shape">
+                      <img src="/images/about-shape1.png" alt="Shape" />
+                    </div>
+                    <h1>India’s leading skin and hair
+                      clinic founded by AIIMS dermatologist</h1>
+                    <p>
+                    Your Path to Healthy Skin and Natural Hair Restoration
+                    </p>
+
+                    <div className="common-btn">
+                      <Link href="/appointment">Get Appointment</Link>
+                      <Link href="/about" className="cmn-btn-right">
+                        Learn More
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
       </Swiper>
     </>
   );

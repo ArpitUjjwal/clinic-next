@@ -427,6 +427,7 @@
   }
   .home-slider-two .slider-item::before {
     background-color: #fff;
+    opacity: 0.2;
   }
   .home-slider-two .slider-item .slider-text h1 {
     font-size: 24px;

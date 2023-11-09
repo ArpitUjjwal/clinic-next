@@ -9,7 +9,7 @@ const DoctorDetails = () => {
   return (
     <>
       <PageBanner
-        pageTitle="Dr. Sarah Taylor (Neurosurgeon)"
+        pageTitle="Dr. Ramesh Pratap"
         homePageUrl="/"
         homePageText="Home"
         activePageText="Doctor Details"
@@ -21,7 +21,7 @@ const DoctorDetails = () => {
           <div className="row">
             <div className="col-lg-5">
               <div className="doctor-details-item doctor-details-left">
-                <img src="/images/doctors/doctor3.jpg" alt="Doctor" />
+                <img src="/images/ramesh.jpeg" alt="Doctor" />
 
                 <div className="doctor-details-contact">
                   <h3>Contact info</h3>
@@ -69,8 +69,8 @@ const DoctorDetails = () => {
               <div className="doctor-details-item">
                 <div className="doctor-details-right">
                   <div className="doctor-details-biography">
-                    <h3>Dr. Sarah Taylor (Neurosurgeon)</h3>
-                    <p>MBBS in Neurology, PHD in Neurosurgeon</p>
+                    <h3>Dr. Ramesh Pratap</h3>
+                    <p>MBBS</p>
                   </div>
 
                   <div className="doctor-details-biography">
