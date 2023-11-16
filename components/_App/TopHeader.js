@@ -36,15 +36,6 @@ const TopHeader = () => {
             <div className="col-sm-4 col-lg-3">
               <div className="header-top-item">
                 <div className="header-top-right">
-                  {/* <ul className="lang-list">
-                    <li>
-                      <a href="/">EN</a>
-                    </li>
-                    <li>
-                      <a href="/ar">AR</a>
-                    </li>
-                  </ul> */}
-
                   <ul>
                     <li>
                       <a href="https://www.facebook.com/" target="_blank">

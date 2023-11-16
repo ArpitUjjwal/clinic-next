@@ -5,6 +5,7 @@ import Whatsapp from "./Whatsapp";
 import Footer from "./Footer";
 import TopHeader from "./TopHeader";
 import Navbar from "./Navbar";
+import CallBtn from "./CallBtn";
 
 const Layout = ({ children }) => {
   return (
@@ -25,6 +26,7 @@ const Layout = ({ children }) => {
 
       <Footer />
 
+      <CallBtn/>
       <Whatsapp />
       <GoTop scrollStepInPx="100" delayInMs="10.50" />
     </>

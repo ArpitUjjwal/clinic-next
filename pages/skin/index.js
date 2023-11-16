@@ -1,5 +1,6 @@
 import React from "react";
 import PageBanner from "../../components/Common/PageBanner";
+import SkinServices from "./SkinServices";
 
 const ServiceDetailsContent = () => {
     return (
@@ -30,26 +31,7 @@ const ServiceDetailsContent = () => {
                         <p>
                             Your skin's health and appearance matter to us, and our patient-centric approach ensures that you'll receive the best possible care. Whether you're looking to enhance your skin's texture, reduce blemishes, or simply maintain its youthful glow, Dermaiims is your trusted partner on the journey to healthier, more beautiful skin.
                         </p>
-                    </div>
-
-                    <div className="row">
-                        <div className="col-lg-5">
-                            <div className="service-details-inner-left">
-                                <img src="/images/signup-bg.jpg" alt="Service" />
-                            </div>
-                        </div>
-                        <div className="col-lg-7">
-                            <div className="service-details-inner">
-                                <h2>We Always Take Care of Our Patients</h2>
-                                <p>
-                                    At Dermaiims, our commitment to patient care is at the heart of everything we do. We understand that seeking medical treatment can be a significant decision, and we are dedicated to providing a caring and supportive environment for all our patients.
-                                </p>
-                                <p>
-                                    We believe in providing the highest standard of quality and care, and our patients' trust and comfort are of utmost importance. Our state-of-the-art facilities, advanced technologies, and compassionate staff combine to create an environment where you can feel confident and well taken care of during your entire journey with us.
-                                </p>
-
-                            </div>
-                        </div>
+                        <SkinServices/>
                     </div>
                 </div>
             </div>

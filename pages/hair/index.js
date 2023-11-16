@@ -1,5 +1,6 @@
 import React from "react";
 import PageBanner from "../../components/Common/PageBanner";
+import HairServices from "./HairServices";
 
 const ServiceDetailsContent = () => {
     return (
@@ -11,6 +12,7 @@ const ServiceDetailsContent = () => {
                 activePageText="Hair"
                 bgImage="page-title-hair"
             />
+
             <div className="service-details-area ptb-100">
                 <div className="container">
                     <div className="services-details-img">
@@ -27,27 +29,7 @@ const ServiceDetailsContent = () => {
                         <p>
                             Say goodbye to the worries of hair loss and hello to a rejuvenated, confident you. Our comprehensive approach to hair transplant ensures not just a cosmetic transformation but also a boost in self-esteem. You can trust Dermaiims to provide a safe, comfortable, and successful hair transplant experience, making us the preferred destination for hair restoration in Delhi.
                         </p>
-
-                    </div>
-
-                    <div className="row">
-                        <div className="col-lg-5">
-                            <div className="service-details-inner-left">
-                                <img src="/images/signup-bg.jpg" alt="Service" />
-                            </div>
-                        </div>
-                        <div className="col-lg-7">
-                            <div className="service-details-inner">
-                                <h2>We Always Take Care of Our Patients</h2>
-                                <p>
-                                    At Dermaiims, our commitment to patient care is at the heart of everything we do. We understand that seeking medical treatment can be a significant decision, and we are dedicated to providing a caring and supportive environment for all our patients.
-                                </p>
-                                <p>
-                                    We believe in providing the highest standard of quality and care, and our patients' trust and comfort are of utmost importance. Our state-of-the-art facilities, advanced technologies, and compassionate staff combine to create an environment where you can feel confident and well taken care of during your entire journey with us.
-                                </p>
-
-                            </div>
-                        </div>
+                        <HairServices />
                     </div>
                 </div>
             </div>

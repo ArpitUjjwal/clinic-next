@@ -1,89 +1,34 @@
 import React from "react";
 import PageBanner from "../../components/Common/PageBanner";
+import ServiceDetailsContent from "../../components/Services/ServiceDetailsContent";
 
-const ServiceDetailsContent = () => {
+const Info = () => {
+    const data = {
+        heading: "Cost Of hair transplant",
+        p1: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit reprehenderit sint omnis similique ea corporis vitae in iusto consequatur! Maiores odio illo, officia qui fuga aperiam, dolor, vitae animi quia commodi laudantium quis quibusdam!",
+        p2: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, deserunt. Quaerat fugit consequatur voluptatum nulla, commodi nesciunt ut ad sed temporibus recusandae neque ea, dolorum quas. Beatae quia necessitatibus explicabo, dolor iusto eligendi provident corrupti numquam hic at inventore doloremque expedita rerum! Earum, officia magni iste repellat mollitia soluta veniam ipsam officiis explicabo laborum adipisci vitae voluptatibus architecto eaque dolorum.",
+        image: "/images/signup-bg.jpg",
+        p3: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum, esse dolore quas veritatis saepe sapiente est, id quo debitis dignissimos ducimus repellendus eum ea quod rerum impedit! Minima accusantium recusandae illum dolorem, veritatis qui repudiandae placeat, inventore molestias sequi minus incidunt cum ab amet ipsam fugit aspernatur mollitia vero doloremque! Minima accusantium recusandae illum dolorem, veritatis qui repudiandae placeat, inventore molestias sequi minus incidunt cum ab amet ipsam fugit aspernatur mollitia vero doloremque! Minima accusantium recusandae illum dolorem, veritatis qui repudiandae placeat, inventore molestias sequi minus incidunt cum ab amet ipsam fugit aspernatur mollitia vero doloremque!"
+    };
+
     return (
         <>
             <PageBanner
-                pageTitle="What is hair transplant?"
+                pageTitle="Cost Of hair transplant"
                 homePageUrl="/"
                 homePageText="Home"
-                activePageText="Service Details"
+                activePageText="Hair Treatments"
                 bgImage="page-title-hair"
             />
-            <div className="service-details-area ptb-100">
-                <div className="container">
-                    <div className="services-details-img">
-                        <h2>Our Hospital Always Provide Good Services</h2>
-                        <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting
-                            industry. Lorem Ipsum has been the industry's standard dummy text
-                            ever since the 1500s, when an unknown printer took a galley of
-                            type and scrambled it to make a type specimen book. It has
-                            survived not only five centuries, but also the leap into
-                            electronic typesetting, remaining essentially unchanged. It was
-                            popularised in the 1960s with the release of Letraset sheets
-                            containing Lorem Ipsum passages, and more recently with desktop
-                            publishing software like Aldus PageMaker including versions of
-                            Lorem Ipsum.
-                        </p>
-
-                        <blockquote>
-                            <i className="icofont-quote-left"></i>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
-                            optio rem magni, dolorum aut vel nostrum quae, fugit
-                            necessitatibus eius perferendis. Quia optio tenetur pariatur
-                            aliquam obcaecati enim quam eum?Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit. Sint optio rem magni, dolorum aut
-                            vel nostrum quae, fugit necessitatibus eius perferendis. Quia
-                            optio tenetur pariatur aliquam obcaecati enim quam eum?
-                        </blockquote>
-                        <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting
-                            industry. Lorem Ipsum has been the industry's standard dummy text
-                            ever since the 1500s, when an unknown printer took a galley of
-                            type and scrambled it to make a type specimen book. It has
-                            survived not only five centuries, but also the leap into
-                            electronic typesetting, remaining essentially unchanged. It was
-                            popularised in the 1960s with the release of Letraset sheets
-                            containing Lorem Ipsum passages, and more recently with desktop
-                            publishing software like Aldus PageMaker including versions of
-                            Lorem Ipsum.
-                        </p>
-                    </div>
-
-                    <div className="row">
-                        <div className="col-lg-5">
-                            <div className="service-details-inner-left">
-                                <img src="/images/signup-bg.jpg" alt="Service" />
-                            </div>
-                        </div>
-                        <div className="col-lg-7">
-                            <div className="service-details-inner">
-                                <h2>We Always Take Care Our Patient</h2>
-                                <p>
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                    Architecto blanditiis obcaecati veritatis magnam pariatur
-                                    molestiae in maxime. Animi quae vitae in inventore. Totam
-                                    mollitia aspernatur provident veniam aperiam placeat impedit!
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                    Saepe rem natus nobis, dolorum nam excepturi iure autem nemo
-                                    ducimus temporibus facere, est eum voluptatem, culpa optio
-                                    fugit assumenda quod? Praesentium.
-                                </p>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
-                                    laudantium ullam, iure distinctio officia libero voluptatem
-                                    obcaecati vero deleniti minima nemo itaque alias nisi eveniet
-                                    soluta architecto quae laboriosam unde.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <ServiceDetailsContent
+                heading={data.heading}
+                p1={data.p1}
+                p2={data.p2}
+                p3={data.p3}
+                image={data.image}
+            />
         </>
     );
 };
 
-export default ServiceDetailsContent;
+export default Info;

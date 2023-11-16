@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
+import { hairServices } from "../../utils/hairServices";
+import { laserServices } from "../../utils/laserServices";
+import { skinServices } from "../../utils/skinServices";
 
 const Navbar = () => {
   // Add active class
@@ -61,13 +64,13 @@ const Navbar = () => {
                 <span className="icon-bar bottom-bar"></span>
               </button>
 
-              <div className={classOne} id="navbarSupportedContent">
+              <div className={classOne} id="navbarSupportedContent" onClick={toggleNavbar}>
                 <ul className="navbar-nav">
                   <li className="nav-item">
                     <Link
                       href="/"
                       className={`nav-link ${currentPath == "/" && "active"
-                            }`}
+                        }`}
                     >
                       Home
                     </Link>
@@ -94,40 +97,27 @@ const Navbar = () => {
 
 
                     <ul className="dropdown-menu">
+                      {hairServices.slice(0, 3).map((item) => {
+                        return (
+                          <li className="nav-item">
+                            <Link
+                              href={item.link}
+                              className={`nav-link ${currentPath == "/hair" && "active"
+                                }`}
+                            >
+                              {item.name}
+                            </Link>
+                          </li>
+                        )
+                      })}
                       <li className="nav-item">
                         <Link
                           href="/hair"
                           className={`nav-link ${currentPath == "/hair" && "active"
                             }`}
                         >
-                          What is hair transplant?
-                        </Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link
-                          href="/hair"
-                          className={`nav-link ${currentPath == "/hair" && "active"
-                            }`}
-                        >
-                          Cost of hair transplant?
-                        </Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link
-                          href="/hair"
-                          className={`nav-link ${currentPath == "/hair" && "active"
-                            }`}
-                        >
-                          Hair transplant in females?
-                        </Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link
-                          href="/hair"
-                          className={`nav-link ${currentPath == "/hair" && "active"
-                            }`}
-                        >
-                          Hair transplant in Delhi?
+                          <i class="icofont-rounded-double-right"></i>
+                          View All
                         </Link>
                       </li>
                     </ul>
@@ -143,40 +133,27 @@ const Navbar = () => {
 
 
                     <ul className="dropdown-menu">
+                      {laserServices.slice(0, 3).map((item) => {
+                        return (
+                          <li className="nav-item">
+                            <Link
+                              href={item.link}
+                              className={`nav-link ${currentPath == "/laser" && "active"
+                                }`}
+                            >
+                              {item.name}
+                            </Link>
+                          </li>
+                        )
+                      })}
                       <li className="nav-item">
                         <Link
                           href="/laser/"
                           className={`nav-link ${currentPath == "/laser" && "active"
                             }`}
                         >
-                          Laser hair removal
-                        </Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link
-                          href="/laser/"
-                          className={`nav-link ${currentPath == "/laser" && "active"
-                            }`}
-                        >
-                          Laser skin treatment
-                        </Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link
-                          href="/laser/"
-                          className={`nav-link ${currentPath == "/laser" && "active"
-                            }`}
-                        >
-                          Laser scar treatment
-                        </Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link
-                          href="/laser/"
-                          className={`nav-link ${currentPath == "/laser" && "active"
-                            }`}
-                        >
-                          Laser Pigmentation
+                          <i class="icofont-rounded-double-right"></i>
+                          View All
                         </Link>
                       </li>
                     </ul>
@@ -192,43 +169,40 @@ const Navbar = () => {
 
 
                     <ul className="dropdown-menu">
+                      {skinServices.slice(0, 3).map((item) => {
+                        return (
+                          <li className="nav-item">
+                            <Link
+                              href={item.link}
+                              className={`nav-link ${currentPath == "/skin" && "active"
+                                }`}
+                            >
+                              {item.name}
+                            </Link>
+                          </li>
+                        )
+                      })}
                       <li className="nav-item">
                         <Link
                           href="/skin/"
                           className={`nav-link ${currentPath == "/skin" && "active"
                             }`}
                         >
-                          Skin acne treatment
-                        </Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link
-                          href="/skin/"
-                          className={`nav-link ${currentPath == "/skin" && "active"
-                            }`}
-                        >
-                          Skin botox treatment
-                        </Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link
-                          href="/skin/"
-                          className={`nav-link ${currentPath == "/skin" && "active"
-                            }`}
-                        >
-                          Lip filler treatment
-                        </Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link
-                          href="/skin/"
-                          className={`nav-link ${currentPath == "/skin" && "active"
-                            }`}
-                        >
-                          Stretch marks treatment
+                          <i class="icofont-rounded-double-right"></i>
+                          View All
                         </Link>
                       </li>
                     </ul>
+                  </li>
+
+                  <li className="nav-item">
+                    <Link
+                      href="/gallery"
+                      className={`nav-link ${currentPath == "/gallery/" && "active"
+                        }`}
+                    >
+                      Gallery
+                    </Link>
                   </li>
 
                   <li className="nav-item">
