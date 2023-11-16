@@ -11,7 +11,7 @@ const Stats = () => {
               <div className="counter-item">
                 <i className="icofont-people"></i>
                 <h3>
-                  <span className="counter">xxx</span>+
+                  <span className="counter">100</span>+
                 </h3>
                 <p>Happy Patients</p>
               </div>
@@ -26,7 +26,7 @@ const Stats = () => {
             <div className="col-sm-6 col-lg-3">
               <div className="counter-item">
                 <i className="icofont-badge"></i>
-                <h3 className="counter">xx</h3>
+                <h3 className="counter">10+</h3>
                 <p>Year Experience</p>
               </div>
             </div>

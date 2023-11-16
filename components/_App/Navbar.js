@@ -218,7 +218,7 @@ const Navbar = () => {
               </div>
 
               <div className="nav-srh">
-                <div className="common-btn">
+                <div className="common-btn navbar-btn">
                   <Link
                     style={{
                       border: "2px solid #0046c0",

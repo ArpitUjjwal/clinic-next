@@ -1,61 +1,34 @@
 import React from "react";
 import PageBanner from "../../components/Common/PageBanner";
+import ServiceDetailsContent from "../../components/Services/ServiceDetailsContent";
 
-const ServiceDetailsContent = () => {
+const Info = () => {
+    const data = {
+        heading: "Scar Treatment",
+        p1: "Laser for scar treatment reduces the appearance of scars. It uses focused light therapy to either remove the outer layer of the skin’s surface or stimulate the production of new skin cells to cover damaged skin cells. Laser treatment for scars can reduce the appearance of warts, skin wrinkles, age spots, scars, and keloids. Other names for laser therapy include laser skin resurfacing and laser scar correction. This procedure requires a topical anaesthetic to numb the skin. Laser treatment for scars is an outpatient procedure. It should only be performed by a certified dermatologist.",
+        p2: "Advanced technologies like CO2 laser resurfacing work wonders for scar treatment. In this treatment, laser light pulses are used. The laser beams penetrate the surface of the skin and gets absorbed by the water in the skin cells. During this procedure, the superficial layer or the epidermis gets vaporized. The middle layer or the dermis gets heated up which stimulate new collagen fiber growth. As healing in the area begins, new smoother, firmer, and younger looking skin replaces the old layers.At Skinroots Clinic, the dermatologist or the cosmetic surgeon is highly experienced and expert in the procedure. Specific skin areas are targeted with utmost precision, so that the nearby skin is not affected by the treatment. Ice pack is recommended after the treatment to prevent swelling. A nonstick dressing and antibacterial ointment is applied on the treated skin.",
+        image: "/images/laser/laser5.jpg",
+        p3: "The team of Skinroots is dedicated in providing you the best results possible while centering around philosophy of integrity and safety. Our primary focus is ensuring that every patient feels comfortable and confident. We offer you most affordable and cost-effective procedures with latest technology. To know the cost of the Laser for scar Treatment, kindly request a consultation. We will be there to offer you full explanations regarding your queries."
+    };
+
     return (
         <>
             <PageBanner
-                pageTitle="Laser"
+                pageTitle={data.heading}
                 homePageUrl="/"
                 homePageText="Home"
-                activePageText="Laser"
+                activePageText="Laser Treatments"
                 bgImage="page-title-laser"
             />
-            <div className="service-details-area ptb-100">
-                <div className="container">
-                    <div className="services-details-img">
-                        <h2>Our Hospital Always Provide Good Services</h2>
-                        <p>
-                            Laser treatment at Dermaiims offers advanced solutions for various skin and hair concerns. Our state-of-the-art laser technologies are carefully selected to provide safe and effective treatments for our patients. Whether you're seeking to address unwanted hair, skin blemishes, or signs of aging, our laser procedures can help you achieve your desired results.
-                        </p>
-
-                        <p>
-                            Our expert team of dermatologists and laser specialists ensures that each laser treatment is tailored to your specific needs. We understand that every patient is unique, and we take the time to assess your concerns and develop a personalized treatment plan. With our patient-first approach, your well-being and safety are our top priorities.
-                        </p>
-
-                        <p>
-                            Dermaiims takes pride in staying at the forefront of laser technology. We offer a wide range of laser treatments, including hair removal, skin rejuvenation, and scar reduction. Our advanced lasers are designed to deliver effective results while minimizing discomfort and downtime, so you can quickly get back to your daily routine.
-                        </p>
-
-                        <p>
-                            When you choose Dermaiims for laser treatment, you're choosing a commitment to excellence. Our team is dedicated to providing the best care possible, ensuring that you achieve the desired outcomes for your skin and hair. Trust in Dermaiims for safe, efficient, and customized laser treatments that can transform your appearance and boost your self-confidence.
-                        </p>
-
-                    </div>
-
-                    <div className="row">
-                        <div className="col-lg-5">
-                            <div className="service-details-inner-left">
-                                <img src="/images/signup-bg.jpg" alt="Service" />
-                            </div>
-                        </div>
-                        <div className="col-lg-7">
-                            <div className="service-details-inner">
-                                <h2>We Always Take Care of Our Patients</h2>
-                                <p>
-                                    At Dermaiims, our commitment to patient care is at the heart of everything we do. We understand that seeking medical treatment can be a significant decision, and we are dedicated to providing a caring and supportive environment for all our patients.
-                                </p>
-                                <p>
-                                    We believe in providing the highest standard of quality and care, and our patients' trust and comfort are of utmost importance. Our state-of-the-art facilities, advanced technologies, and compassionate staff combine to create an environment where you can feel confident and well taken care of during your entire journey with us.
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <ServiceDetailsContent
+                heading={data.heading}
+                p1={data.p1}
+                p2={data.p2}
+                p3={data.p3}
+                image={data.image}
+            />
         </>
     );
 };
 
-export default ServiceDetailsContent;
+export default Info;

@@ -1,44 +1,44 @@
 export const skinServices = [
     {
         name: "Acne Treatment",
-        link: "/service-details",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod",
+        link: "/skin/acne-treatment",
+        desc: "Read More",
         image: "/images/skin/skin1.jpg"
     },
     {
         name: "Acne Scar Treatment",
-        link: "/service-details",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod",
+        link: "/skin/acne-scar",
+        desc: "Read More",
         image: "/images/skin/skin2.jpg"
     },
     {
         name: "Pigmentation Treatment",
-        link: "/service-details",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod",
+        link: "/skin/pigmentation",
+        desc: "Read More",
         image: "/images/skin/skin4.jpg"
     },
     {
         name: "Stretch Marks Treatment",
-        link: "/service-details",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod",
+        link: "/skin/stretch-marks",
+        desc: "Read More",
         image: "/images/skin/skin5.jpg"
     },
     {
         name: "Lip Filler",
-        link: "/service-details",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod",
+        link: "/skin/lip-fillers",
+        desc: "Read More",
         image: "/images/skin/filler2.jpg"
     },
     {
         name: "Anti wrinkle Treatment",
-        link: "/service-details",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod",
+        link: "/skin/anti-wrinkle",
+        desc: "Read More",
         image: "/images/skin/filler1.jpg"
     },
     {
         name: "Dark Circle Treatment",
-        link: "/service-details",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod",
+        link: "/skin/dark-circle",
+        desc: "Read More",
         image: "/images/skin/darkcircle1.jpg"
     },
 ]

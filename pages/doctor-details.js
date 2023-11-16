@@ -28,15 +28,15 @@ const DoctorDetails = () => {
                   <ul>
                     <li>
                       <i className="icofont-ui-call"></i>
-                      Call: +07 554 332 322
+                      Call : +011 4509 1986
                     </li>
                     <li>
                       <i className="icofont-ui-message"></i>
-                      hello@dermaiims.com
+                      dermaiimsclinic@gmail.com
                     </li>
                     <li>
                       <i className="icofont-location-pin"></i>
-                      4th Floor, 408 No Chamber
+                      B-4/1, Ground floor, Safdarjung Enclave, New Delhi- 110029
                     </li>
                   </ul>
                 </div>
@@ -70,49 +70,49 @@ const DoctorDetails = () => {
                 <div className="doctor-details-right">
                   <div className="doctor-details-biography">
                     <h3>Dr. Ramesh Pratap</h3>
-                    <p>MBBS</p>
+                    <p>MBBS (AIIMS, NEW DELHI), MD (DERMATOLOGY, VENEREOLOGY & LEPROSY) AIIMS, Ex SR AIIMS, USMLE STEP 1 (USA), CERTIFIED BY ALLERGAN FOR BOTOX TOXIN, CERTIFIED BY RESTYLINE FOR FILLER INJECTION, CERTIFIED BY APTOS FOR THREAD LIFTING, MORE THAN 10 YEARS OF EXPERIENCE IN HAIR TRANSPLANT WITH EXCEPTIONALLY NATURAL RESULTS AND IN DERMATOLOGY & AESTHETICS; </p>
                   </div>
 
                   <div className="doctor-details-biography">
                     <h3>Biography</h3>
 
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum.
+
+                      Dr. Ramesh Pratap is a highly accomplished and skilled medical professional with a distinguished background in dermatology, venereology, leprosy, and aesthetics. He earned his MBBS degree from the prestigious All India Institute of Medical Sciences (AIIMS) in New Delhi, showcasing a solid foundation in medical education.
                     </p>
 
                     <p>
-                      Sed ut perspiciatis unde omnis iste natus error sit
-                      voluptatem accusantium doloremque laudantium, totam rem
-                      aperiam, eaque ipsa quae ab illo inventore veritatis et
-                      quasi architecto beatae vitae dicta sunt explicabo. Nemo
-                      enim ipsam voluptatem quia voluptas sit aspernatur aut
-                      odit aut fugit, sed quia consequuntur magni dolores eos
-                      qui ratione voluptatem sequi nesciunt.
+                      Continuing his pursuit of excellence, Dr. Pratap further specialized in Dermatology, Venereology, and Leprosy, obtaining a MD degree from AIIMS. His dedication to advancing his medical expertise is reflected in his successful completion of the United States Medical Licensing Examination (USMLE) Step 1, demonstrating a commitment to maintaining a global standard of medical proficiency.
+
                     </p>
 
                     <p>
-                      But I must explain to you how all this mistaken idea of
-                      denouncing pleasure and praising pain was born and I will
-                      give you a complete account of the system, and expound the
-                      actual teachings of the great explorer of the truth, the
-                      master-builder of human happiness. No one rejects,
-                      dislikes, or avoids pleasure itself, because it is
-                      pleasure, but because those who do not know how to pursue
-                      pleasure rationally encounter consequences that are
-                      extremely painful.
+                      Dr. Ramesh Pratap's professional journey includes serving as a Senior Resident at AIIMS, a renowned institution that has produced some of the finest medical professionals in the world. This experience has undoubtedly contributed to his comprehensive understanding of dermatological issues and treatment modalities.
+                    </p>
+
+                    <p>
+                      In addition to his academic achievements, Dr. Pratap has acquired certifications from leading aesthetic companies, such as Allergan for Botox Toxin, Restylane for filler injections, and Aptos for thread lifting. These certifications highlight his expertise in utilizing cutting-edge techniques and technologies in the field of dermatology and aesthetics.
+
+                    </p>
+
+                    <p>
+
+                      With a specialization in hair transplant procedures, Dr. Pratap brings over 10 years of valuable experience to his practice. His focus on achieving exceptionally natural results sets him apart in the field of hair transplantation, a testament to his dedication to providing the highest quality of care to his patients.
+                    </p>
+
+                    <p>
+                      Dr. Ramesh Pratap has established his own clinic, located at B-4/1, Ground floor, Safdarjung Enclave, New Delhi-110029. This clinic serves as a testament to his commitment to making his expertise and services accessible to the community. His clinic is not only a physical space for medical consultations but also a hub for dermatological and aesthetic solutions, catering to the diverse needs of his patients.
+                    </p>
+
+                    <p>
+                      In summary, Dr. Ramesh Pratap is a distinguished medical professional with a wealth of experience, a solid educational background, and a commitment to staying at the forefront of advancements in dermatology and aesthetics. His contributions to the field, coupled with his compassionate patient care, make him a respected figure in the medical community.
+
                     </p>
 
                     <p></p>
                   </div>
 
-                  <div className="doctor-details-biography">
+                  {/* <div className="doctor-details-biography">
                     <h3>Education</h3>
                     <ul>
                       <li>
@@ -135,7 +135,7 @@ const DoctorDetails = () => {
                       occaecati cupiditate non provident, similique sunt in
                       culpa.
                     </p>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

@@ -23,13 +23,9 @@ const VideoIntro = () => {
                       </div>
 
                       <div className="video-content">
-                        <h3>Hospital Introduction</h3>
+                        <h3>Specialized Expertise</h3>
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua. Quis ipsum suspendisse ultrices
-                          gravida. Risus commodo viverra maecenas accumsan lacus
-                          vel facilisis.{" "}
+                          A dermatology clinic is distinguished by its specialized expertise in diagnosing and treating disorders of the skin, hair, and nails. Dermatologists at such clinics possess in-depth knowledge of various skin conditions, including acne, eczema, psoriasis, and skin cancers. The clinic is equipped to offer a range of medical, surgical, and cosmetic dermatological services, addressing the diverse needs of patients seeking solutions for both medical and aesthetic concerns.
                         </p>
                       </div>
                     </div>
@@ -56,13 +52,9 @@ const VideoIntro = () => {
                       </div>
 
                       <div className="video-content">
-                        <h3>About Our Pharmacy</h3>
+                        <h3>Advanced Technology and Treatments</h3>
                         <p>
-                          Sed ut perspiciatis unde omnis iste natus error sit
-                          voluptatem accusantium doloremque laudantium, totam
-                          rem aperiam, eaque ipsa quae ab illo inventore
-                          veritatis et quasi architecto beatae vitae dicta sunt
-                          explicabo. Nemo enim ipsam voluptatem.
+                          Leading dermatology clinics leverage advanced technology and innovative treatments to provide the highest quality care. This may include state-of-the-art diagnostic tools for accurate assessments, laser therapies, cosmetic procedures like Botox and fillers, and cutting-edge techniques for dermatologic surgeries. The incorporation of modern technology allows dermatologists to offer effective and minimally invasive solutions, ensuring optimal outcomes for patients.
                         </p>
                       </div>
                     </div>
@@ -88,77 +80,9 @@ const VideoIntro = () => {
                         <i className="icofont-ui-play"></i>
                       </div>
                       <div className="video-content">
-                        <h3>Our reasearch center and lab</h3>
+                        <h3>Comprehensive Care and Patient Education</h3>
                         <p>
-                          But I must explain to you how all this mistaken idea
-                          of denouncing pleasure and praising pain was born and
-                          I will give you a complete account of the system, and
-                          expound the actual teachings of the great explorer of
-                          the truth, the master
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </TabPanel>
-
-          <TabPanel>
-            <div className="video-area">
-              <div className="d-table">
-                <div className="d-table-cell">
-                  <div className="container">
-                    <div className="video-item">
-                      <div
-                        onClick={(e) => {
-                          e.preventDefault();
-                          openModal();
-                        }}
-                        className="popup-youtube"
-                      >
-                        <i className="icofont-ui-play"></i>
-                      </div>
-                      <div className="video-content">
-                        <h3>CCU & ICU</h3>
-                        <p>
-                          At vero eos et accusamus et iusto odio dignissimos
-                          ducimus qui blanditiis praesentium voluptatum deleniti
-                          atque corrupti quos dolores et quas molestias
-                          excepturi sint occaecati cupiditate non provident,
-                          similique sunt in culpa qui officia.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </TabPanel>
-
-          <TabPanel>
-            <div className="video-area">
-              <div className="d-table">
-                <div className="d-table-cell">
-                  <div className="container">
-                    <div className="video-item">
-                      <div
-                        onClick={(e) => {
-                          e.preventDefault();
-                          openModal();
-                        }}
-                        className="popup-youtube"
-                      >
-                        <i className="icofont-ui-play"></i>
-                      </div>
-                      <div className="video-content">
-                        <h3>Our Doctors</h3>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua. Quis ipsum suspendisse ultrices
-                          gravida. Risus commodo viverra maecenas accumsan lacus
-                          vel facilisis.{" "}
+                          A key aspect of a dermatology clinic is its commitment to providing comprehensive care. This involves not only treating existing skin conditions but also educating patients on preventive measures and skincare routines. Dermatologists in these clinics often take the time to discuss lifestyle factors, skincare habits, and sun protection to empower patients in maintaining healthy skin. Patient education is integral to long-term skin health, and a dermatology clinic plays a crucial role in fostering an informed and proactive approach to skincare.
                         </p>
                       </div>
                     </div>
@@ -170,20 +94,17 @@ const VideoIntro = () => {
 
           <TabList>
             <Tab>Hospital Introduction</Tab>
-            <Tab>Pharmacy</Tab>
-            <Tab>Reasearch & Lab</Tab>
-            <Tab>CCU & ICU</Tab>
-            <Tab>Doctors</Tab>
+            <Tab>Advanced Technology and Treatments</Tab>
+            <Tab>Comprehensive Care and Patient Education</Tab>
           </TabList>
         </Tabs>
       </div>
 
-      {/* If you want to change the video need to update videoID */}
       <ModalVideo
         channel="youtube"
         autoplay
         isOpen={isOpen}
-        videoId="bk7McNUjWgw"
+        videoId="xyz"
         onClose={() => setOpen(false)}
       />
     </>

@@ -1,61 +1,33 @@
 import React from "react";
 import PageBanner from "../../components/Common/PageBanner";
+import ServiceDetailsContent from "../../components/Services/ServiceDetailsContent";
 
-const ServiceDetailsContent = () => {
+const Info = () => {
+    const data = {
+        heading: "Full Body Laser Treatment",
+        p1: "Consider laser hair removal if you're unsatisfied with shaving, tweezing, or waxing to eliminate unwanted hair. Today, one of the most popular cosmetic operations worldwide is the best laser hair removal in Delhi. It entails shining very focused light into hair follicles. The pigment absorbs the light in the hair follicles, which results in hair removal. With highly skilled physicians and knowledgeable personnel, Skinroots provides you with modern Laser hair removal in Delhi. Our clinic has the most cutting-edge, world-class lasers, which truly distinguish us in the eyes of our clients. Our team of Dermatologists and laser therapists are highly skilled and experienced in carrying out Laser procedures. Our medical staff, which consists of a team of specialists, is committed to the security, comfort, and convenience of each patient.",
+        image: "/images/laser/laser1.jpg",
+        p3: "The results and sessions may vary from patient to patient as there are many factors which we consider before committing results of laser hair removal. For example hormonal imbalances, the colour of skin, and body hair thickness. While focusing on the philosophies of integrity and safety, we are committed to giving you the best results we can. Our main priority is making sure each patient is at ease and confident. With the newest technology, we provide you with the most reasonable and economical processes."
+    };
+
     return (
         <>
             <PageBanner
-                pageTitle="Laser"
+                pageTitle={data.heading}
                 homePageUrl="/"
                 homePageText="Home"
-                activePageText="Laser"
+                activePageText="Laser Treatments"
                 bgImage="page-title-laser"
             />
-            <div className="service-details-area ptb-100">
-                <div className="container">
-                    <div className="services-details-img">
-                        <h2>Our Hospital Always Provide Good Services</h2>
-                        <p>
-                            Laser treatment at Dermaiims offers advanced solutions for various skin and hair concerns. Our state-of-the-art laser technologies are carefully selected to provide safe and effective treatments for our patients. Whether you're seeking to address unwanted hair, skin blemishes, or signs of aging, our laser procedures can help you achieve your desired results.
-                        </p>
-
-                        <p>
-                            Our expert team of dermatologists and laser specialists ensures that each laser treatment is tailored to your specific needs. We understand that every patient is unique, and we take the time to assess your concerns and develop a personalized treatment plan. With our patient-first approach, your well-being and safety are our top priorities.
-                        </p>
-
-                        <p>
-                            Dermaiims takes pride in staying at the forefront of laser technology. We offer a wide range of laser treatments, including hair removal, skin rejuvenation, and scar reduction. Our advanced lasers are designed to deliver effective results while minimizing discomfort and downtime, so you can quickly get back to your daily routine.
-                        </p>
-
-                        <p>
-                            When you choose Dermaiims for laser treatment, you're choosing a commitment to excellence. Our team is dedicated to providing the best care possible, ensuring that you achieve the desired outcomes for your skin and hair. Trust in Dermaiims for safe, efficient, and customized laser treatments that can transform your appearance and boost your self-confidence.
-                        </p>
-
-                    </div>
-
-                    <div className="row">
-                        <div className="col-lg-5">
-                            <div className="service-details-inner-left">
-                                <img src="/images/signup-bg.jpg" alt="Service" />
-                            </div>
-                        </div>
-                        <div className="col-lg-7">
-                            <div className="service-details-inner">
-                                <h2>We Always Take Care of Our Patients</h2>
-                                <p>
-                                    At Dermaiims, our commitment to patient care is at the heart of everything we do. We understand that seeking medical treatment can be a significant decision, and we are dedicated to providing a caring and supportive environment for all our patients.
-                                </p>
-                                <p>
-                                    We believe in providing the highest standard of quality and care, and our patients' trust and comfort are of utmost importance. Our state-of-the-art facilities, advanced technologies, and compassionate staff combine to create an environment where you can feel confident and well taken care of during your entire journey with us.
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <ServiceDetailsContent
+                heading={data.heading}
+                p1={data.p1}
+                p2={data.p2}
+                p3={data.p3}
+                image={data.image}
+            />
         </>
     );
 };
 
-export default ServiceDetailsContent;
+export default Info;

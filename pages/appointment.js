@@ -13,7 +13,7 @@ const Appointment = () => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="Appointment"
-        bgImage="page-title-one"
+        bgImage="page-title-gallery"
       />
 
       <AppointmentForm />

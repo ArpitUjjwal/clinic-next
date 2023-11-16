@@ -1,60 +1,34 @@
 import React from "react";
 import PageBanner from "../../components/Common/PageBanner";
+import ServiceDetailsContent from "../../components/Services/ServiceDetailsContent";
 
-const ServiceDetailsContent = () => {
+const Info = () => {
+    const data = {
+        heading: "Acne Treatment",
+        p1: "Acne is a condition where the tiny holes on your face known as hair follicle get blocked due to certain reasons. Sebaceous glands that are situated just under your skin can cause Acne when they become overactive and secrete excess oil. This excess oil attracts dirt and germs, thus causing a condition like acne. Some other reasons for Acne include abnormal shedding of dead skin cells of your face and proliferation of acne causing bacteria in your face area. Acne treatment in Delhi would help in controlling this condition.",
+        p2: "Acne is a condition that cannot be cured but the condition can be treated successfully. Best Acne Treatment provided by Skinroots Clinic, helps in treating the acne affected area though there is no permanent cure for Acne. This is because Acne is a physiological condition and not a mere disease. Sometimes, the underlying cause of acne might be genetic and therefore finding a cure might not be easy.Lifestyle and your diet, though do not directly cause Acne, these factors can certainly exaggerate the issue, if not controlled timely. Consulting the Best Acne Treatment in Delhi would help you get the best treatment from the best skin experts. Further, the skin experts would also guide you about the diet and lifestyle you should practise to avoid the proliferation of Acne.",
+        image: "/images/skin/skin1.jpg",
+        p3: "There are specific combinations and drug specifications required to treat your acne and reduce its proliferation. It is advisable to book an appointment with Skinroots Clinic – the Best Acne Treatment centre in Delhi, to get the personalised advice on use of such medication for the best results!Some specialised therapies used to treat Acne include:Chemical Peeling,Steroid Injection,Light Therapy,Drainage and Extraction Methods.These are highly professional therapies that should be done under expert supervision only. Connect with Skinroots clinic today to get the best treatment and therapies today!"
+    };
+
     return (
         <>
             <PageBanner
-                pageTitle="Skin Treatment"
+                pageTitle={data.heading}
                 homePageUrl="/"
                 homePageText="Home"
-                activePageText="Skin"
+                activePageText="Skin Treatments"
                 bgImage="page-title-skin"
             />
-            <div className="service-details-area ptb-100">
-                <div className="container">
-                    <div className="services-details-img">
-                        <h2>Skin Treatment at Dermaiims</h2>
-                        <p>
-                            Achieving healthy, radiant skin is within your reach at Dermaiims. Our comprehensive skin treatment services are designed to address a wide range of skin concerns and conditions. Whether you're dealing with acne, pigmentation issues, aging signs, or any other skin problem, our team of skilled dermatologists is here to help you regain your skin's natural beauty.
-                        </p>
-
-                        <p>
-                            At Dermaiims, we take a personalized approach to skin care. Our experts understand that each individual's skin is unique, and we tailor our treatments to suit your specific needs. From the latest aesthetic lasers to innovative skincare regimens, we offer a wide array of options to rejuvenate and revitalize your skin.
-                        </p>
-
-                        <p>
-                            We pride ourselves on utilizing cutting-edge technology and proven methods to ensure that you receive top-quality skin treatments. Our dermatologists are well-trained in diagnosing and treating even the most challenging skin conditions. We're committed to providing you with a safe and comfortable experience while achieving the results you desire.
-                        </p>
-
-                        <p>
-                            Your skin's health and appearance matter to us, and our patient-centric approach ensures that you'll receive the best possible care. Whether you're looking to enhance your skin's texture, reduce blemishes, or simply maintain its youthful glow, Dermaiims is your trusted partner on the journey to healthier, more beautiful skin.
-                        </p>
-                    </div>
-
-                    <div className="row">
-                        <div className="col-lg-5">
-                            <div className="service-details-inner-left">
-                                <img src="/images/signup-bg.jpg" alt="Service" />
-                            </div>
-                        </div>
-                        <div className="col-lg-7">
-                            <div className="service-details-inner">
-                                <h2>We Always Take Care of Our Patients</h2>
-                                <p>
-                                    At Dermaiims, our commitment to patient care is at the heart of everything we do. We understand that seeking medical treatment can be a significant decision, and we are dedicated to providing a caring and supportive environment for all our patients.
-                                </p>
-                                <p>
-                                    We believe in providing the highest standard of quality and care, and our patients' trust and comfort are of utmost importance. Our state-of-the-art facilities, advanced technologies, and compassionate staff combine to create an environment where you can feel confident and well taken care of during your entire journey with us.
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <ServiceDetailsContent
+                heading={data.heading}
+                p1={data.p1}
+                p2={data.p2}
+                p3={data.p3}
+                image={data.image}
+            />
         </>
     );
 };
 
-export default ServiceDetailsContent;
+export default Info;

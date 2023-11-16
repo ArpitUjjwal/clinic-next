@@ -12,17 +12,17 @@ const LaserServices = () => {
                         {laserServices.map((item) => {
                             return (
                                 <div className="col-sm-6 col-lg-3">
-                                    <div className="service-item bg">
-                                        <div className="service-front">
-                                            <img src={item.image} alt="" />
-                                            <Link href={item.link}>
+                                    <Link href={item.link}>
+                                        <div className="service-item">
+                                            <div className="service-front">
+                                                <img src={item.image} alt="" />
                                                 <h3>{item.name}</h3>
-                                            </Link>
-                                            <p>
-                                                {item.desc}
-                                            </p>
+                                                <p>
+                                                    {item.desc}
+                                                </p>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </Link>
                                 </div>
                             )
                         })}

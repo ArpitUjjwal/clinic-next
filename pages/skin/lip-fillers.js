@@ -1,60 +1,34 @@
 import React from "react";
 import PageBanner from "../../components/Common/PageBanner";
+import ServiceDetailsContent from "../../components/Services/ServiceDetailsContent";
 
-const ServiceDetailsContent = () => {
+const Info = () => {
+    const data = {
+        heading: "Lip Filler Treatment",
+        p1: "Lip fillers have grown in popularity as a non-surgical cosmetic technique for improving the look of the lips. If you're thinking of getting lip fillers in Delhi, you should be aware of the elements that determine the cost of the process. The Lip fillers cost in Delhi might vary based on several factors.While the Lip fillers cost in Delhi must be considered, it is also critical to prioritise the practitioner's experience and safety and the quality of the items utilised. Selecting a decent place with competent practitioners prioritising patient safety is critical to achieving the best outcomes.A consultation with a skilled practitioner is suggested to discuss your unique goals, verify your suitability for the operation, and obtain an exact cost estimate based on your circumstances. The practitioner will analyse your lips, discuss your expectations, and offer the best treatment strategy during the consultation.",
+        p2: "Expert Practitioners: Skinroots Clinic employs an expert team of highly qualified and experienced practitioners specialising in cosmetic procedures such as lip fillers. The practitioners have received considerable training and are up-to-date on the latest lip augmentation procedures and trends. They have a thorough awareness of facial aesthetics and strive for natural-looking and proportional results.",
+        image: "/images/skin/filler2.jpg",
+        p3: "Personalised Consultations: The clinic offers consultations to understand each patient's needs and aspirations better. During the appointment, the practitioner will examine the patient's lips, discuss their desired goal, and offer professional advice on the best lip filler alternatives. This guarantees that the treatment plan is personalised to the patient's needs and preferences.High-Quality Products: Skinroots Clinic exclusively employs high-quality lip fillers approved by regulatory agencies. These hyaluronic acid-based fillers are well-known for their safety and efficacy. The clinic obtains its goods from renowned suppliers to ensure patients receive safe and trustworthy care.Natural Results: Skinroots Clinic practitioners aspire to natural-looking outcomes that enhance the patient's attractiveness. They understand the significance of facial harmony and balance and ensure that the lip fillers complement the patient's overall facial characteristics. The objective is to provide balanced and visually acceptable outcomes that fulfil the patient's expectations."
+    };
+
     return (
         <>
             <PageBanner
-                pageTitle="Skin Treatment"
+                pageTitle={data.heading}
                 homePageUrl="/"
                 homePageText="Home"
-                activePageText="Skin"
+                activePageText="Skin Treatments"
                 bgImage="page-title-skin"
             />
-            <div className="service-details-area ptb-100">
-                <div className="container">
-                    <div className="services-details-img">
-                        <h2>Skin Treatment at Dermaiims</h2>
-                        <p>
-                            Achieving healthy, radiant skin is within your reach at Dermaiims. Our comprehensive skin treatment services are designed to address a wide range of skin concerns and conditions. Whether you're dealing with acne, pigmentation issues, aging signs, or any other skin problem, our team of skilled dermatologists is here to help you regain your skin's natural beauty.
-                        </p>
-
-                        <p>
-                            At Dermaiims, we take a personalized approach to skin care. Our experts understand that each individual's skin is unique, and we tailor our treatments to suit your specific needs. From the latest aesthetic lasers to innovative skincare regimens, we offer a wide array of options to rejuvenate and revitalize your skin.
-                        </p>
-
-                        <p>
-                            We pride ourselves on utilizing cutting-edge technology and proven methods to ensure that you receive top-quality skin treatments. Our dermatologists are well-trained in diagnosing and treating even the most challenging skin conditions. We're committed to providing you with a safe and comfortable experience while achieving the results you desire.
-                        </p>
-
-                        <p>
-                            Your skin's health and appearance matter to us, and our patient-centric approach ensures that you'll receive the best possible care. Whether you're looking to enhance your skin's texture, reduce blemishes, or simply maintain its youthful glow, Dermaiims is your trusted partner on the journey to healthier, more beautiful skin.
-                        </p>
-                    </div>
-
-                    <div className="row">
-                        <div className="col-lg-5">
-                            <div className="service-details-inner-left">
-                                <img src="/images/signup-bg.jpg" alt="Service" />
-                            </div>
-                        </div>
-                        <div className="col-lg-7">
-                            <div className="service-details-inner">
-                                <h2>We Always Take Care of Our Patients</h2>
-                                <p>
-                                    At Dermaiims, our commitment to patient care is at the heart of everything we do. We understand that seeking medical treatment can be a significant decision, and we are dedicated to providing a caring and supportive environment for all our patients.
-                                </p>
-                                <p>
-                                    We believe in providing the highest standard of quality and care, and our patients' trust and comfort are of utmost importance. Our state-of-the-art facilities, advanced technologies, and compassionate staff combine to create an environment where you can feel confident and well taken care of during your entire journey with us.
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <ServiceDetailsContent
+                heading={data.heading}
+                p1={data.p1}
+                p2={data.p2}
+                p3={data.p3}
+                image={data.image}
+            />
         </>
     );
 };
 
-export default ServiceDetailsContent;
+export default Info;
