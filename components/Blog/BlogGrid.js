@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 
 const BlogGrid = () => {
-  const imgs = ["/images/gallery/img1.jpeg", "/images/gallery/img1.jpeg", "/images/gallery/img1.jpeg"]
+  const imgs = ["/images/gallery/img1.jpeg", "/images/gallery/img2.jpg", "/images/gallery/img3.jpg", "/images/gallery/img4.jpg", "/images/gallery/img5.jpg"]
   return (
     <>
       <div className="blog-area-two pt-100 pb-70">
