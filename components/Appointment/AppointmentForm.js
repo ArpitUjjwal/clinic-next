@@ -32,18 +32,6 @@ const AppointmentForm = () => {
 
                       <div className="col-lg-6">
                         <div className="form-group">
-                          <i className="icofont-ui-message"></i>
-                          <label>Email</label>
-                          <input
-                            type="email"
-                            className="form-control"
-                            placeholder="Enter Your Email"
-                          />
-                        </div>
-                      </div>
-
-                      <div className="col-lg-6">
-                        <div className="form-group">
                           <i className="icofont-ui-call"></i>
                           <label>Phone</label>
                           <input
@@ -62,11 +50,10 @@ const AppointmentForm = () => {
                             className="form-control"
                             id="exampleFormControlSelect1"
                           >
-                            <option>Dental Care</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
+                            <option>Hair</option>
+                            <option>Skin</option>
+                            <option>Laser</option>
+                            <option>Others</option>
                           </select>
                         </div>
                       </div>
@@ -74,30 +61,26 @@ const AppointmentForm = () => {
                       <div className="col-lg-6">
                         <div className="form-group">
                           <i className="icofont-doctor"></i>
-                          <label>Doctor</label>
+                          <label>Timing</label>
                           <select
                             className="form-control"
                             id="exampleFormControlSelect2"
                           >
-                            <option>Choose Your Doctor</option>
-                            <option>John Smith</option>
-                            <option>Sarah Taylor</option>
-                            <option>Stevn King</option>
+                            <option>10:00 AM</option>
+                            <option>11:00 AM</option>
+                            <option>12:00 PM</option>
+                            <option>01:00 PM</option>
+                            <option>02:00 PM</option>
+                            <option>03:00 PM</option>
+                            <option>04:00 PM</option>
+                            <option>05:00 PM</option>
+                            <option>06:00 PM</option>
+                            <option>07:00 PM</option>
+                            <option>08:00 PM</option>
                           </select>
                         </div>
                       </div>
 
-                      <div className="col-lg-6">
-                        <div className="form-group">
-                          <i className="icofont-business-man"></i>
-                          <label>Age</label>
-                          <input
-                            type="text"
-                            className="form-control"
-                            placeholder="Your Age"
-                          />
-                        </div>
-                      </div>
                     </div>
 
                     <div className="text-center">
@@ -116,22 +99,22 @@ const AppointmentForm = () => {
                   <h2>Working Hours</h2>
                   <ul>
                     <li>
-                      Monday <span>9:00 AM - 8:00 PM</span>
+                      Monday <span>10:00 AM - 8:00 PM</span>
                     </li>
                     <li>
-                      Tuesday <span>9:00 AM - 8:00 PM</span>
+                      Tuesday <span>10:00 AM - 8:00 PM</span>
                     </li>
                     <li>
-                      Wednesday <span>9:00 AM - 8:00 PM</span>
+                      Wednesday <span>10:00 AM - 8:00 PM</span>
                     </li>
                     <li>
-                      Thursday <span>9:00 AM - 8:00 PM</span>
+                      Thursday <span>10:00 AM - 8:00 PM</span>
                     </li>
                     <li>
-                      Friday <span>9:00 AM - 8:00 PM</span>
+                      Friday <span>10:00 AM - 8:00 PM</span>
                     </li>
                     <li>
-                      Saturday <span>9:00 AM - 8:00 PM</span>
+                      Saturday <span>10:00 AM - 8:00 PM</span>
                     </li>
                   </ul>
                 </div>
