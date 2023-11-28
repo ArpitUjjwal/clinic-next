@@ -954,7 +954,7 @@ button:focus {
 /*-- End Expertise --*/
 /*-- Video --*/
 .video-area {
-  background-image: url("/images/intro-video-bg.jpg");
+  background-image: url("/images/intro-video-bgc.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1049,15 +1049,15 @@ button:focus {
   border-radius: 10px;
 }
 
-.doctor-item:hover .doctor-top:before {
+/* .doctor-item:hover .doctor-top:before {
   opacity: 0.6;
   transform: scale(1);
-}
+} */
 
-.doctor-item:hover .doctor-top a {
+/* .doctor-item:hover .doctor-top a {
   opacity: 1;
   bottom: 20px;
-}
+} */
 
 .doctor-item .doctor-top {
   position: relative;
@@ -1075,7 +1075,6 @@ button:focus {
   left: 0;
   right: 0;
   bottom: 10px;
-  opacity: 0;
   max-width: 160px;
   margin-left: auto;
   margin-right: auto;
@@ -1522,6 +1521,7 @@ footer {
 }
 
 .home-slider-two .slider-item {
+  background-color: #2459b8;
   height: 830px;
 }
 
@@ -1540,12 +1540,12 @@ footer {
 
 .home-slider-two .slider-item .slider-text h1 {
   color: #ffffff;
-  text-shadow: 10px 10px 30px #001230;
+  text-shadow: 5px 5px 30px #001230;
 }
 
 .home-slider-two .slider-item .slider-text p {
   color: #ffffff;
-  text-shadow: 10px 10px 30px #001230;
+  text-shadow: 2px 2px 5px #001230;
 }
 
 .home-slider-two .slider-item .slider-text .common-btn a {
@@ -1632,7 +1632,7 @@ footer {
 /*-- End Emergency --*/
 /*-- Welcome --*/
 .welcome-left {
-  background-image: url("/images/hair-transplant-img.jpg");
+  background-image: url("/images/hair-transplant-imgc.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1769,7 +1769,7 @@ footer {
 }
 
 .speciality-right {
-  background-image: url("/images/expert-clinic-img.jpg");
+  background-image: url("/images/expert-clinic-imgc.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -2531,7 +2531,7 @@ footer {
 }
 
 .page-title-gallery{
-  background-image: url("/images/home-two/IMG-3874.jpg");
+  background-image: url("/images/home-two/IMG-3874c.jpg");
 }
 
 .page-title-area {
@@ -2813,7 +2813,7 @@ footer {
 .doctor-details-item img {
   width: 100%;
   border-radius: 10px;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 
 .doctor-details-item .doctor-details-contact {
@@ -3353,7 +3353,7 @@ footer {
 /*----- Contact Page -----*/
 /*-- Page Title --*/
 .page-title-five {
-  background-image: url("/images/intro-video-bg.jpg");
+  background-image: url("/images/intro-video-bgc.jpg");
 }
 
 /*-- End Page Title --*/

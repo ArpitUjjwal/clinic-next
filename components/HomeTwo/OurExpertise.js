@@ -61,7 +61,7 @@ const OurExpertise = () => {
 
             <div className="col-lg-5 pr-0">
               <div className="speciality-item speciality-right">
-                <img src="/images/expert-clinic-img.jpg" alt="Speciality" />
+                <img src="/images/expert-clinic-imgc.jpg" alt="Speciality" />
 
                 <div className="speciality-emergency">
                   <div className="speciality-icon">

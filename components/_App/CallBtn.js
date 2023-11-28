@@ -3,9 +3,11 @@ import React from 'react';
 const CallBtn = () => {
 
     return (
-        <div className={`call-btn`}>
-            <i class="icofont-ui-call"></i>
-        </div>
+        <a href="tel:918447400400">
+            <div className={`call-btn`}>
+                <i class="icofont-ui-call"></i>
+            </div>
+        </a>
     )
 }
 

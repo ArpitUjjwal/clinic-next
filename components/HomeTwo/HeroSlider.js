@@ -20,7 +20,7 @@ const HeroSlider = () => {
           <div
             className="slider-item"
             style={{
-              backgroundImage: `url(/images/home-two/IMG-3874.jpg)`,
+              backgroundImage: `url(/images/home-two/IMG-3874c.jpg)`,
             }}
           >
             <div className="d-table">
@@ -53,7 +53,7 @@ const HeroSlider = () => {
           <div
             className="slider-item"
             style={{
-              backgroundImage: `url(/images/home-two/IMG-3882.jpg)`,
+              backgroundImage: `url(/images/home-two/IMG-3882c.jpg)`,
             }}
           >
             <div className="d-table">
@@ -86,7 +86,7 @@ const HeroSlider = () => {
           <div
             className="slider-item"
             style={{
-              backgroundImage: `url(/images/home-two/IMG-6389.jpg)`,
+              backgroundImage: `url(/images/home-two/IMG-6389c.jpg)`,
             }}
           >
             <div className="d-table">

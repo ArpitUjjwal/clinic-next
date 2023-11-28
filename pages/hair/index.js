@@ -6,7 +6,7 @@ const ServiceDetailsContent = () => {
     return (
         <>
             <PageBanner
-                pageTitle="Hair Transplant"
+                pageTitle="Hair Treatments"
                 homePageUrl="/"
                 homePageText="Home"
                 activePageText="Hair"
@@ -16,7 +16,7 @@ const ServiceDetailsContent = () => {
             <div className="service-details-area ptb-100">
                 <div className="container">
                     <div className="services-details-img">
-                        <h2>Hair Transplant at Dermaiims</h2>
+                        <h2>Hair treatments at Dermaiims</h2>
                         <p>
                             Hair transplant is a highly advanced and effective solution for individuals experiencing hair loss or baldness. At Dermaiims, we are dedicated to providing top-tier hair transplant procedures that can help you restore a full head of hair and regain your self-confidence.
                         </p>

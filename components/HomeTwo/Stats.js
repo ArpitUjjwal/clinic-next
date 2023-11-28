@@ -11,7 +11,7 @@ const Stats = () => {
               <div className="counter-item">
                 <i className="icofont-people"></i>
                 <h3>
-                  <span className="counter">100</span>+
+                  <span className="counter">1000</span>+
                 </h3>
                 <p>Happy Patients</p>
               </div>

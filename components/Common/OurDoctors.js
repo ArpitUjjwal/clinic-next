@@ -12,11 +12,11 @@ const OurDoctors = () => {
 
           <div className="row justify-content-center">
             <div className="col-sm-6 col-lg-4">
-              <Link href="/doctor-details">
+              {/* <Link href="/dr-ramesh-pratap"> */}
                 <div className="doctor-item">
                   <div className="doctor-top">
                     <img src="/images/ramesh.jpeg" alt="Doctor" />
-                    {/* <Link href="/doctor-details">Know More</Link> */}
+                    <Link href="/dr-ramesh-pratap">Know More</Link>
                   </div>
                   <div className="doctor-bottom">
                     <h3>
@@ -25,7 +25,7 @@ const OurDoctors = () => {
                     <span>MBBS, MD <i>(DERMATOLOGY, VENEREOLOGY & LEPROSY)</i> (AIIMS)</span>
                   </div>
                 </div>
-              </Link>
+              {/* </Link> */}
             </div>
           </div>
         </div>

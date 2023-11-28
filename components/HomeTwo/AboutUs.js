@@ -8,7 +8,7 @@ const AboutUs = () => {
           <div className="row m-0">
             <div className="col-lg-6 p-0">
               <div className="welcome-item welcome-left">
-                <img src="/images/hair-transplant-img.jpg" alt="image" />
+                <img src="/images/hair-transplant-imgc.jpg" alt="image" />
               </div>
             </div>
 
