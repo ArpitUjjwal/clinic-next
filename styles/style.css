@@ -1632,7 +1632,7 @@ footer {
 /*-- End Emergency --*/
 /*-- Welcome --*/
 .welcome-left {
-  background-image: url("/images/hair-transplant-imgc.jpg");
+  background-image: url("/images/IMG-3887.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -2515,19 +2515,19 @@ footer {
 }
 
 .page-title-hair{
-  background-image: url("/images/hair-banner.png");
+  background-image: url("/images/hair-bannerc.png");
 }
 
 .page-title-laser{
-  background-image: url("/images/laser-banner.jpeg");
+  background-image: url("/images/laser-bannerc.jpeg");
 }
 
 .page-title-skin{
-  background-image: url("/images/skin-banner.jpeg");
+  background-image: url("/images/skin-bannerc.jpeg");
 }
 
 .page-title-contact{
-  background-image: url("/images/contact-banner.jpg");
+  background-image: url("/images/contact-bannerc.jpg");
 }
 
 .page-title-gallery{
