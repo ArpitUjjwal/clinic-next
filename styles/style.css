@@ -954,7 +954,7 @@ button:focus {
 /*-- End Expertise --*/
 /*-- Video --*/
 .video-area {
-  background-image: url("/images/intro-video-bgc.jpg");
+  background-image: url("/images/video-bgc.jpeg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1001,7 +1001,7 @@ button:focus {
 
 .video-item .video-content h3 {
   color: #ffffff;
-  text-shadow: 2px 5px 10px #111;
+  /* text-shadow: 2px 5px 10px #111; */
   font-weight: 600;
   font-size: 36px;
   margin-bottom: 25px;
@@ -1009,7 +1009,7 @@ button:focus {
 
 .video-item .video-content p {
   color: #ffffff;
-  text-shadow: 2px 5px 10px #111;
+  /* text-shadow: 2px 5px 10px #111; */
   margin-bottom: 0;
 }
 
@@ -1632,7 +1632,7 @@ footer {
 /*-- End Emergency --*/
 /*-- Welcome --*/
 .welcome-left {
-  background-image: url("/images/IMG-3887.jpg");
+  background-image: url("/images/intro-video-bgc.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1839,7 +1839,7 @@ footer {
 /*-- End Speciality --*/
 /*-- Video --*/
 .video-wrap-two .video-area {
-  background-image: url("/images/home-two/7.jpg");
+  background-image: url("/images/gallery/img2c.jpg");
   filter: brightness(50%) !important;
 }
 
