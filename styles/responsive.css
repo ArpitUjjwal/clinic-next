@@ -752,7 +752,7 @@
   }
   .page-title-item ul li {
     font-size: 15px;
-    margin-right: 0;
+    /* margin-right: 0; */
     margin-left: 0;
   }
   .page-title-item ul li i {
@@ -2123,7 +2123,7 @@
   }
   .page-title-item ul li {
     font-size: 16px;
-    margin-right: 0;
+    /* margin-right: 0; */
     margin-left: 0;
   }
   /*-- End Page Title --*/
