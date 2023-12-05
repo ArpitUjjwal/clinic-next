@@ -2890,7 +2890,7 @@ footer {
 
 .doctor-details-item .doctor-details-biography {
   padding-left: 30px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .doctor-details-item .doctor-details-biography:last-child {
@@ -2914,9 +2914,7 @@ footer {
 }
 
 .doctor-details-item .doctor-details-biography ul li {
-  list-style-type: none;
-  display: block;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 .doctor-details-item .doctor-details-biography ul li:last-child {

@@ -70,72 +70,86 @@ const DoctorDetails = () => {
                 <div className="doctor-details-right">
                   <div className="doctor-details-biography">
                     <h3>Dr. Ramesh Pratap</h3>
-                    <p>MBBS (AIIMS, NEW DELHI), MD (DERMATOLOGY, VENEREOLOGY & LEPROSY) AIIMS, Ex SR AIIMS, USMLE STEP 1 (USA), CERTIFIED BY ALLERGAN FOR BOTOX TOXIN, CERTIFIED BY RESTYLINE FOR FILLER INJECTION, CERTIFIED BY APTOS FOR THREAD LIFTING, MORE THAN 10 YEARS OF EXPERIENCE IN HAIR TRANSPLANT WITH EXCEPTIONALLY NATURAL RESULTS AND IN DERMATOLOGY & AESTHETICS; </p>
+                    <p><b>MD (Dermatology, Venereology & Leprology) AIIMS, MBBS , (AIIMS), USMLE (USA) STEP I</b></p>
                   </div>
 
                   <div className="doctor-details-biography">
-                    <h3>Biography</h3>
-
-                    <p>
-
-                      Dr. Ramesh Pratap is a highly accomplished and skilled medical professional with a distinguished background in dermatology, venereology, leprosy, and aesthetics. He earned his MBBS degree from the prestigious All India Institute of Medical Sciences (AIIMS) in New Delhi, showcasing a solid foundation in medical education.
+                    <p><b>Dr. Ramesh Pratap</b> is a highly accomplished dermatologist with a distinguished academic background and over
+                      <b> 10 years of extensive experience in the field of Aesthetics, Hair Tansplant, Clinical Dermatology and Dermatosurgery</b>. He completed his <b>MBBS</b> from prestigious All India Institute of Medical Sciences <b>(AIIMS)</b>, New Delhi, India showcasing his commitment to excellence in medical education. Driven by a passion for dermatology, he pursued and successfully completed his <b>MD in Dermatology, Venereology & Leprology at All India Institute of Medical Sciences </b> (AIIMS).
                     </p>
-
-                    <p>
-                      Continuing his pursuit of excellence, Dr. Pratap further specialized in Dermatology, Venereology, and Leprosy, obtaining a MD degree from AIIMS. His dedication to advancing his medical expertise is reflected in his successful completion of the United States Medical Licensing Examination (USMLE) Step 1, demonstrating a commitment to maintaining a global standard of medical proficiency.
-
-                    </p>
-
-                    <p>
-                      Dr. Ramesh Pratap's professional journey includes serving as a Senior Resident at AIIMS, a renowned institution that has produced some of the finest medical professionals in the world. This experience has undoubtedly contributed to his comprehensive understanding of dermatological issues and treatment modalities.
-                    </p>
-
-                    <p>
-                      In addition to his academic achievements, Dr. Pratap has acquired certifications from leading aesthetic companies, such as Allergan for Botox Toxin, Restylane for filler injections, and Aptos for thread lifting. These certifications highlight his expertise in utilizing cutting-edge techniques and technologies in the field of dermatology and aesthetics.
-
-                    </p>
-
-                    <p>
-
-                      With a specialization in hair transplant procedures, Dr. Pratap brings over 10 years of valuable experience to his practice. His focus on achieving exceptionally natural results sets him apart in the field of hair transplantation, a testament to his dedication to providing the highest quality of care to his patients.
-                    </p>
-
-                    <p>
-                      Dr. Ramesh Pratap has established his own clinic, located at B-4/1, Ground floor, Safdarjung Enclave, New Delhi-110029. This clinic serves as a testament to his commitment to making his expertise and services accessible to the community. His clinic is not only a physical space for medical consultations but also a hub for dermatological and aesthetic solutions, catering to the diverse needs of his patients.
-                    </p>
-
-                    <p>
-                      In summary, Dr. Ramesh Pratap is a distinguished medical professional with a wealth of experience, a solid educational background, and a commitment to staying at the forefront of advancements in dermatology and aesthetics. His contributions to the field, coupled with his compassionate patient care, make him a respected figure in the medical community.
-
-                    </p>
-
-                    <p></p>
                   </div>
 
-                  {/* <div className="doctor-details-biography">
+                  <div className="doctor-details-biography">
                     <h3>Education</h3>
                     <ul>
                       <li>
-                        PHD Degree in Neurology at University of UCLan School of
-                        Medicine Preston (2006)
+                        <b>MBBS</b>: All India Institute of Medical Sciences <b>(AIIMS)</b>, New Delhi, India
                       </li>
                       <li>
-                        Master of Neurosurgery at University of University of
-                        Exeter Medical School Exeter (2002)
+                        <b>MD (Dermatology, Venereology & Leprology)</b>: All India Institute of Medical Sciences (AIIMS), India
                       </li>
                     </ul>
                   </div>
 
                   <div className="doctor-details-biography">
-                    <h3>Experience</h3>
-                    <p>
-                      At vero eos et accusamus et iusto odio dignissimos ducimus
-                      qui blanditiis praesentium voluptatum deleniti atque
-                      corrupti quos dolores et quas molestias excepturi sint
-                      occaecati cupiditate non provident, similique sunt in
-                      culpa.
+                    <h3>Professional Experience</h3>
+                    <ul>
+                      <li><b>Senior Residency</b> (Dermatology, Venereology & Leprology): <b>AIIMS and VMMC & Safdarjung Hospital</b></li>
+                      <li><b>Junior Residency</b> (Dermatology, Venereology & Leprosy): <b>AIIMS, New Delhi</b>, India</li>
+                    </ul>
+                  </div>
+
+                  <div className="doctor-details-biography">
+                    <h3>Achievements</h3>
+                    <ul>
+                      <li>
+                        <b>Topper of MD (Dermatology, Venereology & Leprosy)</b> examination
+                      </li>
+                      <li>USMLE (USA) Step.</li>
+                      <li> Ex Chief Hair Transplant Surgeon and Senior Consultant Dermatologist at Clinic
+                        Dermatech</li>
+                      <li> 1st Runner-up: Dermoscopy CME & Workshop Quiz at Post Graduate Institute of</li>
+                      Medical Education and Research (PGIMER), Chandigarh
+                      <li> Winner of the 100-meter breaststroke swimming competition at PULSE, 2011, AIIMS</li>
+                      <li> Actively involved in various extracurricular activities, including serving as the Chief
+                        Sports Secretary for PULSE 2010 and as the Ex Gymkhana Secretary, Student Union 2010-2011, AIIMS.
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div className="doctor-details-biography">
+                    <h3>Memberships</h3>
+                    <ul>
+                      <li>Member, Indian Association of Dermatologists, Venereologists, and Leprologists <b>(IADVL)</b></li>
+                      <li>Member, <b>THE AIIMSONIANS</b> (AIIMS, New Delhi)</li>
+                    </ul>
+                  </div>
+
+                  <div className="doctor-details-biography">
+                    <h3>Medical Expertise</h3>
+                    <ul>
+                      <li>
+                      <b>Over 10 years of experience</b> in aesthetics procedures
+                      </li>
+                      <li> More than 500 successful <b>hair transplant</b> surgeries <b>(FUE)</b> with natural and outstanding
+                        results</li>
+                      <li> Expertise in <b>thread lift</b> procedures <b>(Aptos certified)</b></li>
+                      <li> Proficient in <b>botulinum toxin</b> injections (upper face, Masseters etc) <b>(Allergan Botox
+                        trained)</b></li>
+                      <li> Skilled in HA (hyaluronic acid) <b>dermal filler injections</b> (midface, under-eye, jawline and
+                        chin) <b>(Galderma Restylane trained)</b></li>
+                      <li> Proficient in <b>facial PRP (Platelet Rich Plasma), hair PRP</b>, GFC (Growth Factor
+                        Concentrate), micro-needling and<b> mesotherapy with derma-pen 4</b>.</li>
+                      <li> Well-versed in dermatosurgery procedures such as <b>Acne scar surgeries, Aautologous
+                        Fat Grafting</b>, vitiligo surgery,<b> scar revision, Cyst excision</b>, Mole removal, laser treatments, <b>Punch Excision Biopsy</b>, Skin tag or <b>wart removal</b> and <b>MNRF (Microneedle Radiofrequency) Morpheus 8</b>, having successfully performed more than 1000 of these surgeries and procedures.</li>
+                      <li> Mastered in various laser treatments like <b>LHR (Laser Hair Reduction)</b>, QS-NDYAG laser <b>(laser tonning, carbon laser facial</b>, tattoo removal) and CO2 laser, <b>Expert in Melasma</b> treatment and hair fall treatment.</li>
+                    </ul>
+                  </div>
+
+                  <div className="doctor-details-biography">
+                    <p><b>Dr. Ramesh Pratap</b> is dedicated to providing the highest quality of care to his patients, combining his academic excellence, clinical expertise, and commitment to continuous learning. His contributions to research, numerous publications in international PubMed indexed journals, and active participation in conferences, workshops, and CME programs reflect his passion for advancing the field of dermatology.
                     </p>
-                  </div> */}
+                  </div>
                 </div>
               </div>
             </div>
